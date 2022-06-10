@@ -18,6 +18,12 @@ Here are the features that each hacked emulator can provide:
 **lr-mame-StormedBubbles** 
 - Some text here
 
+**lr-flycast-flyinghead** 
+- Some text here
+
+**lr-flycast-mazan** 
+- Some text here
+
 
 
 # Installing via RetroPie-Setup
