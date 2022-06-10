@@ -25,7 +25,7 @@ Here are the features that each hacked emulator can provide:
 - Some text here
 
 **lr-duckstation**
-- Some text here
+- lr-duckstation is a discontinued core that is no longer available via RetroPie-Setup.  It is presently the only emulator for the Raspberry Pi that will allow you to play **Gunfighter: The Legend of Jesse James**
 
 
 # Installing via RetroPie-Setup
