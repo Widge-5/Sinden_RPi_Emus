@@ -19,7 +19,8 @@ Here are the features that each hacked/unofficial emulator can provide:
 - Some text here
 
 **lr-flycast-flyinghead** 
-- Some text here
+- Makes **Virtua Cop 2** playable (American/Japanese standalone and Smash Pack versions).  May need "Force WinCE Mode" set to "On".
+- Enables 2-player gaming for **Ninja Assault**, which is not possible on regular Flycast.
 
 **lr-flycast-mazan** 
 - A hacked fork of lr-flycast that was created specifically to make the game **Mazan: Flash of the Blade** playable with a mouse/lightgun. The sword defaults to a neutral position and "Gun Aux A" button can be used to slash. 
@@ -28,7 +29,7 @@ Here are the features that each hacked/unofficial emulator can provide:
 - lr-duckstation is a discontinued core that is no longer available via RetroPie-Setup.  It might be the best way to play **Gunfighter: The Legend of Jesse James** on the Raspberry Pi.
 
 **lr-swanstation**
-- lr-swanstation is an in-development core that is forked from duckstation and not yet available via RetroPie-Setup.  It is capable of running **Gunfighter: The Legend of Jesse James** on the Raspberry Pi.
+- lr-swanstation is an in-development core that was forked from duckstation and not yet available via RetroPie-Setup.  It is capable of running **Gunfighter: The Legend of Jesse James** on the Raspberry Pi.
 
 
 # Installing via RetroPie-Setup
