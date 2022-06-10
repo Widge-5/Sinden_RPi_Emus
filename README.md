@@ -22,7 +22,7 @@ Here are the features that each hacked/unofficial emulator can provide:
 - Some text here
 
 **lr-flycast-mazan** 
-- Some text here
+- A hacked fork of lr-flycast that was created specifically to make the game **Mazan: Flash of the Blade** playable with a mouse/lightgun. The sword defaults to a neutral position and "Gun Aux A" button can be used to slash. 
 
 **lr-duckstation**
 - lr-duckstation is a discontinued core that is no longer available via RetroPie-Setup.  It might be the best way to play **Gunfighter: The Legend of Jesse James** on the Raspberry Pi.
