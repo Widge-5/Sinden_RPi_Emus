@@ -35,8 +35,6 @@ Be advised that lr-mame-StormedBubbles cannot ordinarily compile on anything les
 
 lr-flycast-mazan will require the following additional step before attempting to compile: in the folder `/home/pi/RetroPie-Setup/scriptmodules/libretrocores` there should be an existing subfolder called `lr-flycast`. Either make a duplicate or symlink to this folder called `lr-flycast-mazan` in the same location.
 
-lr-duckstation has no installation script and will require a manual installation.
-
 
 # Manual installation
 Please note, these binaries may not be the most up-to-date versions of the cores.  Check the upload dates to find out when they were compiled. 
