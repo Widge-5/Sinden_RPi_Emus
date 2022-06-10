@@ -16,7 +16,8 @@ Here are the features that each hacked/unofficial emulator can provide:
 - Some text here
 
 **lr-mame-StormedBubbles** 
-- Some text here
+- **Blue Shark** (blueshrk) - better accuracy for using the gun as a paddle controller
+- **Invasion: The Abductors** (invasnab) - Accuracy correction
 
 **lr-flycast-flyinghead** 
 - Makes **Virtua Cop 2** playable (American/Japanese standalone and Smash Pack versions).  May need "Force WinCE Mode" set to "On".
