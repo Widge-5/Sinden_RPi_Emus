@@ -24,6 +24,8 @@ Here are the features that each hacked emulator can provide:
 **lr-flycast-mazan** 
 - Some text here
 
+**lr-duckstation**
+- Some text here
 
 
 # Installing via RetroPie-Setup
@@ -33,6 +35,7 @@ Be advised that lr-mame-StormedBubbles cannot ordinarily compile on anything les
 
 lr-flycast-mazan will require the following additional step before attempting to compile: in the folder `/home/pi/RetroPie-Setup/scriptmodules/libretrocores` there should be an existing subfolder called `lr-flycast`. Either make a duplicate or symlink to this folder called `lr-flycast-mazan` in the same location.
 
+lr-duckstation has no installation script and will require a manual installation.
 
 
 # Manual installation
@@ -44,7 +47,7 @@ To install the cores manually on your Raspberry Pi, take the following steps:
 - extract the file `mame2010_libretro.so` from the zip and place it in a folder called `/opt/retropie/libretrocores/lr-mame2010-StormedBubbles` on your Raspberry Pi (you may need root permissions to do this).
 - edit the file `/opt/retropie/configs/arcade/emulators.cfg` to add the following entry (note this is one line of plain text) :
 - `lr-mame2010-StormedBubbles = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-mame2010-StormedBubbles/mame2010_libretro.so --config /opt/retropie/configs/arcade/retroarch.cfg %ROM%"`
-- The next time you launch a rom from the _arcade_ group, this core will be one of the options available via runcommand.
+- The next time you launch a rom from the _Arcade_ group, this core will be one of the options available via runcommand.
 
 
 **lr-mame2015-StormedBubbles** 
@@ -52,7 +55,7 @@ To install the cores manually on your Raspberry Pi, take the following steps:
 - extract the file `mame2015_libretro.so` from the zip and place it in a folder called `/opt/retropie/libretrocores/lr-mame2015-StormedBubbles` on your Raspberry Pi (you may need root permissions to do this).
 - edit the file `/opt/retropie/configs/arcade/emulators.cfg` to add the following entry (note this is one line of plain text) :
 - `lr-mame2015-StormedBubbles = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-mame2015-StormedBubbles/mame2015_libretro.so --config /opt/retropie/configs/arcade/retroarch.cfg %ROM%"`
-- The next time you launch a rom from the _arcade_ group, this core will be one of the options available via runcommand.
+- The next time you launch a rom from the _Arcade_ group, this core will be one of the options available via runcommand.
 
 
 **lr-mame2016-StormedBubbles** 
@@ -60,7 +63,7 @@ To install the cores manually on your Raspberry Pi, take the following steps:
 - extract the file `mame2016_libretro.so` from the zip and place it in a folder called `/opt/retropie/libretrocores/lr-mame2016-StormedBubbles` on your Raspberry Pi (you may need root permissions to do this).
 - edit the file `/opt/retropie/configs/arcade/emulators.cfg` to add the following entry (note this is one line of plain text) :
 - `lr-mame2016-StormedBubbles = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-mame2016-StormedBubbles/mame2016_libretro.so --config /opt/retropie/configs/arcade/retroarch.cfg %ROM%"`
-- The next time you launch a rom from the _arcade_ group, this core will be one of the options available via runcommand.
+- The next time you launch a rom from the _Arcade_ group, this core will be one of the options available via runcommand.
 
 
 **lr-mame-StormedBubbles** 
@@ -68,7 +71,7 @@ To install the cores manually on your Raspberry Pi, take the following steps:
 - extract the file ``mamearcade_libretro.zip`` from the zip(s) and place it in a folder called `/opt/retropie/libretrocores/lr-mame-StormedBubbles` on your Raspberry Pi (you may need root permissions to do this).
 - edit the file `/opt/retropie/configs/arcade/emulators.cfg` to add the following entry (note this is one line of plain text) :
 - `lr-mame-StormedBubbles = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-mame-StormedBubbles/mamearcade_libretro.so --config /opt/retropie/configs/arcade/retroarch.cfg %ROM%"`
-- The next time you launch a rom from the _arcade_ group, this core will be one of the options available via runcommand.
+- The next time you launch a rom from the _Arcade_ group, this core will be one of the options available via runcommand.
 
 
 **lr-flycast-flyinghead** 
@@ -76,7 +79,7 @@ To install the cores manually on your Raspberry Pi, take the following steps:
 - extract the file `flycast_libretro.so` from the zip and place it in a folder called `/opt/retropie/libretrocores/lr-flycast-flyinghead` on your Raspberry Pi (you may need root permissions to do this).
 - edit the file `/opt/retropie/configs/dreamcast/emulators.cfg` to add the following entry (note this is one line of plain text) :
 - `lr-flycast-flyinghead = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-flycast-flyinghead/flycast_libretro.so </dev/null --config /opt/retropie/configs/dreamcast/retroarch.cfg %ROM%"`
-- The next time you launch a rom from the _dreamcast group_, this core will be one of the options available via runcommand.
+- The next time you launch a rom from the _Dreamcast_ group, this core will be one of the options available via runcommand.
 
 
 **lr-flycast-mazan** 
@@ -85,4 +88,14 @@ To install the cores manually on your Raspberry Pi, take the following steps:
 - extract the file `flycast_libretro.so` from the zip and place it in a folder called `/opt/retropie/libretrocores/lr-flycast-mazan` on your Raspberry Pi (you may need root permissions to do this).
 - edit the file `/opt/retropie/configs/dreamcast/emulators.cfg` to add the following entry (note this is one line of plain text) :
 - `lr-flycast-mazan = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-flycast-mazan/flycast_libretro.so </dev/null --config /opt/retropie/configs/dreamcast/retroarch.cfg %ROM%"`
-- The next time you launch a rom from the _dreamcast group_, this core will be one of the options available via runcommand.
+- The next time you launch a rom from the _Dreamcast_ group, this core will be one of the options available via runcommand.
+
+
+**lr-duckstation** 
+- download the file `lr-duckstation.zip` from the compiled_binaries folder.
+- extract the file `duckstation_libretro.so` from the zip and place it in a folder called `/opt/retropie/libretrocores/lr-duckstation` on your Raspberry Pi (you may need root permissions to do this).
+- edit the file `/opt/retropie/configs/psx/emulators.cfg` to add the following entry (note this is one line of plain text) :
+- `lr-duckstation = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-duckstation/duckstation_libretro.so </dev/null --config /opt/retropie/configs/psx/retroarch.cfg %ROM%"`
+- The next time you launch a rom from the _PSX_ group, this core will be one of the options available via runcommand.
+
+
