@@ -2,6 +2,7 @@
 Repository of installation scripts and binaries for unofficially hacked emulators offering quality-of-life improvements for Sinden lightgun users on Raspberry Pi 4.
 
 
+
 # What can they do?
 Here are the features that each hacked emulator can provide:
 
@@ -25,9 +26,10 @@ To install any of these as alternative options on your RetroPie system, copy the
 Be advised that lr-mame-StormedBubbles cannot ordinarily compile on anything less than a Raspberry Pi 4 with 8Gb of RAM. However it is possible to compile on lesser Pi4s by bloating a swapfile on your starage medium You can do so by running the script `swap_bloater.sh`, which will create a temporary swapfile of approximately 8Gb in size, before attempting the compile.  The swapfile will be removed on the next reboot of your Pi.
 
 
-# Manual installation/opt/retropie/libretrocores/
+
+# Manual installation
 To install the cores manually on your Raspberry Pi, take the following steps:
-.
+
 **lr-mame2010-StormedBubbles** 
 - download the file `lr-mame2010-StormedBubbles.zip` from the compiled_binaries folder.
 - extract the file `mame2010_libretro.so` from the zip and place it in a folder called `/opt/retropie/libretrocores/lr-mame2010-StormedBubbles` on your Raspberry Pi (you may need root permissions to do this).
