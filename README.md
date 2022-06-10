@@ -34,6 +34,7 @@ Be advised that lr-mame-StormedBubbles cannot ordinarily compile on anything les
 
 
 # Manual installation
+Please note, these binaries may not be the most up-to-date versions of the cores.  Check the upload dates to find out when they were compiled. 
 To install the cores manually on your Raspberry Pi, take the following steps:
 
 **lr-mame2010-StormedBubbles** 
@@ -66,3 +67,20 @@ To install the cores manually on your Raspberry Pi, take the following steps:
 - edit the file `/opt/retropie/configs/arcade/emulators.cfg` to add the following entry (note this is one line of plain text) :
 - `lr-mame-StormedBubbles = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-mame-StormedBubbles/mamearcade_libretro.so --config /opt/retropie/configs/arcade/retroarch.cfg %ROM%"`
 - The next time you launch a rom from the _arcade_ group, this core will be one of the options available via runcommand.
+
+
+**lr-flycast-flyinghead** 
+- download the file `lr-flycast-flyinghead.zip` from the compiled_binaries folder.
+- extract the file `flycast_libretro.so` from the zip and place it in a folder called `/opt/retropie/libretrocores/lr-flycast-flyinghead` on your Raspberry Pi (you may need root permissions to do this).
+- edit the file `/opt/retropie/configs/dreamcast/emulators.cfg` to add the following entry (note this is one line of plain text) :
+- `lr-flycast-flyinghead = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-flycast-flyinghead/flycast_libretro.so </dev/null --config /opt/retropie/configs/dreamcast/retroarch.cfg %ROM%"`
+- The next time you launch a rom from the _dreamcast group_, this core will be one of the options available via runcommand.
+
+
+**lr-flycast-mazan** 
+- in the folder `/home/pi/RetroPie-Setup/scriptmodules/libretrocores` there should be an existing subfolder called `lr-flycast`.  Either make a duplicate or symlink to this folder called `lr-flycast-mazan` in the same location.
+- download the file `lr-flycast-mazan.zip` from the compiled_binaries folder.
+- extract the file `flycast_libretro.so` from the zip and place it in a folder called `/opt/retropie/libretrocores/lr-flycast-mazan` on your Raspberry Pi (you may need root permissions to do this).
+- edit the file `/opt/retropie/configs/dreamcast/emulators.cfg` to add the following entry (note this is one line of plain text) :
+- `lr-flycast-mazan = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-flycast-mazan/flycast_libretro.so </dev/null --config /opt/retropie/configs/dreamcast/retroarch.cfg %ROM%"`
+- The next time you launch a rom from the _dreamcast group_, this core will be one of the options available via runcommand.
