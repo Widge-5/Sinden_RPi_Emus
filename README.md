@@ -25,7 +25,7 @@ Here are the features that each hacked/unofficial emulator can provide:
 - Some text here
 
 **lr-duckstation**
-- lr-duckstation is a discontinued core that is no longer available via RetroPie-Setup.  It might be the best way to play **Gunfighter: The Legend of Jesse James**
+- lr-duckstation is a discontinued core that is no longer available via RetroPie-Setup.  It might be the best way to play **Gunfighter: The Legend of Jesse James** on the Raspberry Pi.
 
 **lr-swanstation**
 - lr-swanstation is an in-development core that is forked from duckstation and not yet available via RetroPie-Setup.  It is capable of running **Gunfighter: The Legend of Jesse James** on the Raspberry Pi.
