@@ -25,7 +25,10 @@ Here are the features that each hacked/unofficial emulator can provide:
 - Some text here
 
 **lr-duckstation**
-- lr-duckstation is a discontinued core that is no longer available via RetroPie-Setup.  It is presently the only emulator for the Raspberry Pi that will allow you to play **Gunfighter: The Legend of Jesse James**
+- lr-duckstation is a discontinued core that is no longer available via RetroPie-Setup.  It might be the best way to play **Gunfighter: The Legend of Jesse James**
+
+**lr-swantation**
+- lr-swanstation is an in-development core that is forked from duckstation and not yet available via RetroPie-Setup.  It is capable of running **Gunfighter: The Legend of Jesse James** on the Raspberry Pi.
 
 
 # Installing via RetroPie-Setup
@@ -94,6 +97,14 @@ To install the cores manually on your Raspberry Pi, take the following steps:
 - extract the file `duckstation_libretro.so` from the zip and place it in a folder called `/opt/retropie/libretrocores/lr-duckstation` on your Raspberry Pi (you may need root permissions to do this).
 - edit the file `/opt/retropie/configs/psx/emulators.cfg` to add the following entry (note this is one line of plain text) :
 - `lr-duckstation = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-duckstation/duckstation_libretro.so </dev/null --config /opt/retropie/configs/psx/retroarch.cfg %ROM%"`
+- The next time you launch a rom from the _PSX_ group, this core will be one of the options available via runcommand.
+
+
+**lr-swanstation** 
+- download the file `lr-swanstation.zip` from the compiled_binaries folder.
+- extract the file `swanstation_libretro.so` from the zip and place it in a folder called `/opt/retropie/libretrocores/lr-swanstation` on your Raspberry Pi (you may need root permissions to do this).
+- edit the file `/opt/retropie/configs/psx/emulators.cfg` to add the following entry (note this is one line of plain text) :
+- `lr-swanstation = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-swanstation/swanstation_libretro.so --config /opt/retropie/configs/psx/retroarch.cfg %ROM%"`
 - The next time you launch a rom from the _PSX_ group, this core will be one of the options available via runcommand.
 
 
