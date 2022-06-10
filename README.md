@@ -4,7 +4,7 @@ Repository of installation scripts and binaries for unofficial and/or hacked emu
 
 
 # What can they do?
-Here are the features that each hacked emulator can provide:
+Here are the features that each hacked/unofficial emulator can provide:
 
 **lr-mame2010-StormedBubbles** 
 - Some text here
