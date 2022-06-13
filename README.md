@@ -7,16 +7,19 @@ Repository of installation scripts and binaries for unofficial and/or hacked emu
 Here are the features that each hacked/unofficial emulator can provide:
 
 **lr-mame2010-StormedBubbles** 
-- Some text here
+- **Blue Shark** (blueshrk) - better accuracy for using the gun as a paddle controller
 
 **lr-mame2015-StormedBubbles** 
-- Some text here
+- **Blue Shark** (blueshrk) - better accuracy for using the gun as a paddle controller
+- **ClayBuster** (claybust) - better accuracy
 
 **lr-mame2016-StormedBubbles** 
-- Some text here
+- **Blue Shark** (blueshrk) - better accuracy for using the gun as a paddle controller
+- **ClayBuster** (claybust) - better accuracy
 
 **lr-mame-StormedBubbles** 
 - **Blue Shark** (blueshrk) - better accuracy for using the gun as a paddle controller
+- **ClayBuster** (claybust) - better accuracy
 - **Invasion: The Abductors** (invasnab) - Accuracy correction
 
 **lr-flycast-flyinghead** 
