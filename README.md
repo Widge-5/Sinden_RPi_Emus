@@ -7,18 +7,22 @@ Repository of installation scripts and binaries for unofficial and/or hacked emu
 Here are the features that each hacked/unofficial emulator can provide:
 
 **lr-mame2010-StormedBubbles** 
-- **Blue Shark** (blueshrk) - better accuracy for using the gun as a paddle controller
+- **Blue Shark** (blueshrk) - perfect accuracy when using the gun as a paddle controller
+- **Born to Fight** (borntofi) - better accuracy
 
 **lr-mame2015-StormedBubbles** 
-- **Blue Shark** (blueshrk) - better accuracy for using the gun as a paddle controller
+- **Blue Shark** (blueshrk) - perfect accuracy for using the gun as a paddle controller
+- **Born to Fight** (borntofi) - better accuracy
 - **ClayBuster** (claybust) - better accuracy
 
 **lr-mame2016-StormedBubbles** 
-- **Blue Shark** (blueshrk) - better accuracy for using the gun as a paddle controller
+- **Blue Shark** (blueshrk) - perfect accuracy for using the gun as a paddle controller
+- **Born to Fight** (borntofi) - better accuracy
 - **ClayBuster** (claybust) - better accuracy
 
 **lr-mame-StormedBubbles** 
-- **Blue Shark** (blueshrk) - better accuracy for using the gun as a paddle controller
+- **Blue Shark** (blueshrk) - perfect accuracy for using the gun as a paddle controller
+- **Born to Fight** (borntofi) - better accuracy
 - **ClayBuster** (claybust) - better accuracy
 - **Invasion: The Abductors** (invasnab) - Accuracy correction
 
