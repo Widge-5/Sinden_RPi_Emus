@@ -22,6 +22,7 @@ Here are the features that each hacked/unofficial emulator can provide:
 
 **lr-mame-StormedBubbles** 
 - **Blue Shark** (blueshrk) - Perfect accuracy for using the gun as a paddle controller
+- **Born to Fight** (borntofi) - Better accuracy
 - **ClayBuster** (claybust) - Better accuracy
 - **Invasion: The Abductors** (invasnab) - Perfect accuracy correction
 
