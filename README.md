@@ -7,24 +7,24 @@ Repository of installation scripts and binaries for unofficial and/or hacked emu
 Here are the features that each hacked/unofficial emulator can provide:
 
 **lr-mame2010-StormedBubbles** 
-- **Blue Shark** (blueshrk) - perfect accuracy when using the gun as a paddle controller
-- **Born to Fight** (borntofi) - better accuracy
+- **Blue Shark** (blueshrk) - Perfect accuracy when using the gun as a paddle controller
+- **Born to Fight** (borntofi) - Better accuracy
 
 **lr-mame2015-StormedBubbles** 
-- **Blue Shark** (blueshrk) - perfect accuracy for using the gun as a paddle controller
-- **Born to Fight** (borntofi) - better accuracy
-- **ClayBuster** (claybust) - better accuracy
+- **Blue Shark** (blueshrk) - Perfect accuracy for using the gun as a paddle controller
+- **Born to Fight** (borntofi) - Better accuracy
+- **ClayBuster** (claybust) - Better accuracy
 
 **lr-mame2016-StormedBubbles** 
-- **Blue Shark** (blueshrk) - perfect accuracy for using the gun as a paddle controller
-- **Born to Fight** (borntofi) - better accuracy
-- **ClayBuster** (claybust) - better accuracy
+- **Blue Shark** (blueshrk) - Perfect accuracy for using the gun as a paddle controller
+- **Born to Fight** (borntofi) - Better accuracy
+- **ClayBuster** (claybust) - Better accuracy
 
 **lr-mame-StormedBubbles** 
-- **Blue Shark** (blueshrk) - perfect accuracy for using the gun as a paddle controller
-- **Born to Fight** (borntofi) - better accuracy
-- **ClayBuster** (claybust) - better accuracy
-- **Invasion: The Abductors** (invasnab) - Accuracy correction
+- **Blue Shark** (blueshrk) - Perfect accuracy for using the gun as a paddle controller
+- **Born to Fight** (borntofi) - Better accuracy
+- **ClayBuster** (claybust) - Better accuracy
+- **Invasion: The Abductors** (invasnab) - Perfect accuracy correction
 
 **lr-flycast-flyinghead** 
 - Makes **Virtua Cop 2** playable (American/Japanese standalone and Smash Pack versions).  May need "Force WinCE Mode" set to "On".
