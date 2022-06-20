@@ -32,7 +32,7 @@ Here are the features that each hacked/unofficial emulator can provide:
 - **Ninja Assault** - 2-player gaming enabled, which is not possible on regular Flycast.
 
 **lr-flycast-mazan** 
-**Mazan: Flash of the Blade** - This hacked fork of lr-flycast was created specifically to make **Mazan** playable with a mouse/lightgun. The sword defaults to a neutral position and "Gun Aux A" button can be used to slash. 
+- **Mazan: Flash of the Blade** - This hacked fork of lr-flycast was created specifically to make **Mazan** playable with a mouse/lightgun. The sword defaults to a neutral position and "Gun Aux A" button can be used to slash. 
 
 **lr-duckstation** - a discontinued core that is no longer available via RetroPie-Setup.
 - **Gunfighter: The Legend of Jesse James** - It might be the best way to play this game on the Raspberry Pi.
