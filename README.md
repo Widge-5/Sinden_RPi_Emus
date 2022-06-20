@@ -25,6 +25,7 @@ Here are the features that each hacked/unofficial emulator can provide:
 - **Born to Fight** (borntofi) - Better accuracy
 - **ClayBuster** (claybust) - Better accuracy
 - **Invasion: The Abductors** (invasnab) - Perfect accuracy correction
+- **Triple Hunt** (triplhnt) - Adds the ability to make two clones of the game.  Triple Hunt is 3 games in 1: Witch Hunt, Hit the Bear and Raccoon Hunt.  Dipswitch settings in the Tab menu can switch between the three game modes, but with this hack you can make two duplicates or symlinks of the triplhnt rom, naming them _triplhna.zip_ and _triplhnb.zip_ and each clone will use a seperate game config allowing you to have each instance set up for each of the game modes individually accesible directly from your retropie gamelist instead of having to mess around changing things in the tab menu.
 
 **lr-flycast-flyinghead** 
 - Makes **Virtua Cop 2** playable (American/Japanese standalone and Smash Pack versions).  May need "Force WinCE Mode" set to "On".
