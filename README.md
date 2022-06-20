@@ -28,11 +28,11 @@ Here are the features that each hacked/unofficial emulator can provide:
 - **Triple Hunt** (triplhnt) - Adds the ability to make two clones of the game.  Triple Hunt is 3 games in 1: Witch Hunt, Hit the Bear and Raccoon Hunt.  Dipswitch settings in the Tab menu can switch between the three game modes, but with this hack you can make two duplicates or symlinks of the triplhnt rom, naming them _triplhna.zip_ and _triplhnb.zip_ and each clone will use a seperate game config allowing you to have each instance set up for each of the game modes individually accesible directly from your retropie gamelist instead of having to mess around changing things in the tab menu.
 
 **lr-flycast-flyinghead** 
-- Makes **Virtua Cop 2** playable (American/Japanese standalone and Smash Pack versions).  May need "Force WinCE Mode" set to "On".
-- Enables 2-player gaming for **Ninja Assault**, which is not possible on regular Flycast.
+- **Virtua Cop 2** (American/Japanese standalone and Smash Pack versions) - Playable, may need "Force WinCE Mode" set to "On".
+- **Ninja Assault** - 2-player gaming enabled, which is not possible on regular Flycast.
 
 **lr-flycast-mazan** 
-- A hacked fork of lr-flycast that was created specifically to make the game **Mazan: Flash of the Blade** playable with a mouse/lightgun. The sword defaults to a neutral position and "Gun Aux A" button can be used to slash. 
+**Mazan: Flash of the Blade** - This hacked fork of lr-flycast was created specifically to make **Mazan** playable with a mouse/lightgun. The sword defaults to a neutral position and "Gun Aux A" button can be used to slash. 
 
 **lr-duckstation** - a discontinued core that is no longer available via RetroPie-Setup.
 - **Gunfighter: The Legend of Jesse James** - It might be the best way to play this game on the Raspberry Pi.
