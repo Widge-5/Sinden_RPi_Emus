@@ -1,6 +1,7 @@
 # Sinden_RPi_Emus
 Repository of installation scripts and binaries for unofficial and/or hacked emulators offering quality-of-life improvements for Sinden lightgun users on Raspberry Pi 4.
 
+Please note that no roms are provided here.
 
 
 # What can they do?
