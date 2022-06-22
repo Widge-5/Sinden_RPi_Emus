@@ -25,7 +25,12 @@ Here are the features that each hacked/unofficial emulator can provide:
 - **Born to Fight** (borntofi) - Better accuracy
 - **ClayBuster** (claybust) - Better accuracy
 - **Invasion: The Abductors** (invasnab) - Perfect accuracy correction
-- **Triple Hunt** (triplhnt) - Adds the ability to make two clones of the game.  Triple Hunt is 3 games in 1: Witch Hunt, Hit the Bear and Raccoon Hunt.  Dipswitch settings in the Tab menu can switch between the three game modes, but with this hack you can make two duplicates or symlinks of the triplhnt rom, naming them _triplhna.zip_ and _triplhnb.zip_ and each clone will use a seperate game config allowing you to have each instance set up for each of the game modes individually accesible directly from your retropie gamelist instead of having to mess around changing things in the tab menu.
+- **Triple Hunt** (triplhnt) - Adds the ability to make two clones of the game.  Triple Hunt is 3 games in 1: Witch Hunt, Hit the Bear and Raccoon Hunt.  Dipswitch settings in the Tab menu can switch between the three game modes, but with this hack you can make two duplicates or symlinks of the triplhnt rom, naming them _triplhna.zip_ and _triplhnb.zip_ and each clone will use a seperate game config allowing you to have each instance set up for each of the game modes individually accessible directly from your retropie gamelist instead of having to mess around changing things in the tab menu.
+
+**lr-mess-StormedBubbles** 
+- **Mission: Paintball Powered Up** (pballpup) - Perfect accuracy correction
+- **Star Wars: The Clone Wars** (swclone) - Perfect accuracy correction
+- **Teenage Mutant Ninja Turtles: Mutant & Monster Mayhem** (tmntmutm) - Perfect accuracy correction
 
 **lr-flycast-flyinghead** 
 - **Virtua Cop 2** (American/Japanese standalone and Smash Pack versions) - Playable, may need "Force WinCE Mode" set to "On".
@@ -46,9 +51,9 @@ Here are the features that each hacked/unofficial emulator can provide:
 # Installing via RetroPie-Setup
 To install any of these as alternative options on your RetroPie system, copy the files from the "install_scripts" folder and place them in the ```/home/pi/RetroPie-Setup/scriptmodules/libretrocores``` folder on your Raspberry Pi 4, then run RetroPie-Setup as normal.
 
-Be advised that lr-mame-StormedBubbles cannot ordinarily compile on anything less than a Raspberry Pi 4 with 8Gb of RAM. However it is possible to compile on lesser Pi4s by bloating a swapfile on your storage medium You can do so by running the script `swap_bloater.sh`, which will create a temporary swapfile of approximately 8Gb in size, before attempting the compile.  The swapfile will be removed on the next reboot of your Pi.
+Be advised that **lr-mame-StormedBubbles** and **lr-mess-StormedBubbles** cannot ordinarily compile on anything less than a Raspberry Pi 4 with 8Gb of RAM. However it is possible to compile on lesser Pi4s by bloating a swapfile on your storage medium You can do so by running the script `swap_bloater.sh`, which will create a temporary swapfile of approximately 8Gb in size, before attempting the compile.  The swapfile will be removed on the next reboot of your Pi.
 
-lr-flycast-mazan will require the following additional step before attempting to compile: in the folder `/home/pi/RetroPie-Setup/scriptmodules/libretrocores` there should be an existing subfolder called `lr-flycast`. Either make a duplicate or symlink to this folder called `lr-flycast-mazan` in the same location.
+**lr-flycast-mazan** will require the following additional step before attempting to compile: in the folder `/home/pi/RetroPie-Setup/scriptmodules/libretrocores` there should be an existing subfolder called `lr-flycast`. Either make a duplicate or symlink to this folder called `lr-flycast-mazan` in the same location.
 
 
 # Manual installation
@@ -81,10 +86,19 @@ To install the cores manually on your Raspberry Pi, take the following steps:
 
 **lr-mame-StormedBubbles** 
 - download the files `lr-mame-StormedBubbles.zip`, `lr-mame-StormedBubbles.z01` and `lr-mame-StormedBubbles.z02` from the compiled_binaries folder.
-- extract the file ``mamearcade_libretro.zip`` from the zip(s) and place it in a folder called `/opt/retropie/libretrocores/lr-mame-StormedBubbles` on your Raspberry Pi (you may need root permissions to do this).
+- extract the file `mamearcade_libretro.zip` from the zip(s) and place it in a folder called `/opt/retropie/libretrocores/lr-mame-StormedBubbles` on your Raspberry Pi (you may need root permissions to do this).
 - edit the file `/opt/retropie/configs/arcade/emulators.cfg` to add the following entry (note this is one line of plain text) :
 - `lr-mame-StormedBubbles = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-mame-StormedBubbles/mamearcade_libretro.so --config /opt/retropie/configs/arcade/retroarch.cfg %ROM%"`
 - The next time you launch a rom from the _Arcade_ group, this core will be one of the options available via runcommand.
+
+
+**lr-mess-StormedBubbles** 
+- download the files `lr-mess-StormedBubbles.zip`, `lr-mess-StormedBubbles.z01`, `lr-mame-StormedBubbles.z02` and `lr-mame-StormedBubbles.z03` from the compiled_binaries folder.
+- extract all of the filess from the zip(s) and place them in a folder called `/opt/retropie/libretrocores/lr-mess-StormedBubbles` on your Raspberry Pi ensuring to maintain the directory structure (you may need root permissions to do this).
+- also, copy the contents of the `hash` folder to `/home/pi/RetroPie/BIOS/mame/hash/`  so that you have the same contents in both locations.  I don't know how necessary this is, but that's what the istaller does, so that's what we're ging to do.
+- edit the files `/opt/retropie/configs/arcade/emulators.cfg` and `/opt/retropie/configs/mame/emulators.cfg` to add the following entry (note this is one line of plain text) :
+- `lr-mess-StormedBubbles = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-mess-StormedBubbles/mess_libretro.so --config /opt/retropie/configs/arcade/retroarch.cfg %ROM%"`
+- The next time you launch a rom from either the _Arcade_ group or the _Mame_ group, this core will be one of the options available via runcommand.
 
 
 **lr-flycast-flyinghead** 
