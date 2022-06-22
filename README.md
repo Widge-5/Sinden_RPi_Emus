@@ -93,9 +93,8 @@ To install the cores manually on your Raspberry Pi, take the following steps:
 
 
 **lr-mess-StormedBubbles** 
-- download the files `lr-mess-StormedBubbles.zip`, `lr-mess-StormedBubbles.z01`, `lr-mame-StormedBubbles.z02` and `lr-mame-StormedBubbles.z03` from the compiled_binaries folder.
-- extract all of the filess from the zip(s) and place them in a folder called `/opt/retropie/libretrocores/lr-mess-StormedBubbles` on your Raspberry Pi ensuring to maintain the directory structure (you may need root permissions to do this).
-- also, copy the contents of the `hash` folder to `/home/pi/RetroPie/BIOS/mame/hash/`  so that you have the same contents in both locations.  I don't know how necessary this is, but that's what the istaller does, so that's what we're ging to do.
+- download the files `lr-mess-StormedBubbles.zip`, `lr-mess-StormedBubbles.z01` and `lr-mame-StormedBubbles.z02` from the compiled_binaries folder.
+- extract the files `mess_libretro.so` from the zip(s) and place it in a folder called `/opt/retropie/libretrocores/lr-mess-StormedBubbles` on your Raspberry Pi (you may need root permissions to do this).
 - edit the files `/opt/retropie/configs/arcade/emulators.cfg` and `/opt/retropie/configs/mame/emulators.cfg` to add the following entry (note this is one line of plain text) :
 - `lr-mess-StormedBubbles = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-mess-StormedBubbles/mess_libretro.so --config /opt/retropie/configs/arcade/retroarch.cfg %ROM%"`
 - The next time you launch a rom from either the _Arcade_ group or the _Mame_ group, this core will be one of the options available via runcommand.
