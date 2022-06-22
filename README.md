@@ -56,9 +56,11 @@ Be advised that **lr-mame-StormedBubbles** and **lr-mess-StormedBubbles** cannot
 **lr-flycast-mazan** will require the following additional step before attempting to compile: in the folder `/home/pi/RetroPie-Setup/scriptmodules/libretrocores` there should be an existing subfolder called `lr-flycast`. Either make a duplicate or symlink to this folder called `lr-flycast-mazan` in the same location.
 
 
+
 # Manual installation
 Please note, these binaries may not be the most up-to-date versions of the cores.  Check the upload dates to find out when they were compiled. 
 To install the cores manually on your Raspberry Pi, take the following steps:
+
 
 **lr-mame2010-StormedBubbles** 
 - download the file `lr-mame2010-StormedBubbles.zip` from the compiled_binaries folder.
@@ -93,7 +95,7 @@ To install the cores manually on your Raspberry Pi, take the following steps:
 
 
 **lr-mess-StormedBubbles** 
-- download the files `lr-mess-StormedBubbles.zip`, `lr-mess-StormedBubbles.z01` and `lr-mame-StormedBubbles.z02` from the compiled_binaries folder.
+- download the files `lr-mess-StormedBubbles.zip`, `lr-mess-StormedBubbles.z01` and `lr-mess-StormedBubbles.z02` from the compiled_binaries folder.
 - extract the files `mess_libretro.so` from the zip(s) and place it in a folder called `/opt/retropie/libretrocores/lr-mess-StormedBubbles` on your Raspberry Pi (you may need root permissions to do this).
 - edit the files `/opt/retropie/configs/arcade/emulators.cfg` and `/opt/retropie/configs/mame/emulators.cfg` to add the following entry (note this is one line of plain text) :
 - `lr-mess-StormedBubbles = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-mess-StormedBubbles/mess_libretro.so --config /opt/retropie/configs/arcade/retroarch.cfg %ROM%"`
