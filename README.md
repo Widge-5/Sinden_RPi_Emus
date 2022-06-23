@@ -17,15 +17,20 @@ Here are the features that each hacked/unofficial emulator can provide:
 - **ClayBuster** (claybust) - Better accuracy
 
 **lr-mame2016-StormedBubbles** 
+- **New core option** (lightgun offscreen position) - Determine the corner in which all offscreen shots are fired (top left or bottom right), or allow the cursor to move freely along the screen edges
 - **Blue Shark** (blueshrk) - Perfect accuracy for using the gun as a paddle controller
 - **Born to Fight** (borntofi) - Better accuracy
 - **ClayBuster** (claybust) - Better accuracy
+- **Invasion: The Abductors** (invasnab) - Perfect accuracy and working reload (must choose "fixed (bottom right)" in the "lightgun offscreen position" core option)
 
 **lr-mame-StormedBubbles** 
+- **New core option** (lightgun offscreen position) - Determine the corner in which all offscreen shots are fired (top left or bottom right), or allow the cursor to move freely along the screen edges
 - **Blue Shark** (blueshrk) - Perfect accuracy for using the gun as a paddle controller
 - **Born to Fight** (borntofi) - Better accuracy
 - **ClayBuster** (claybust) - Better accuracy
-- **Invasion: The Abductors** (invasnab) - Perfect accuracy correction
+- **Great Guns** (greatgun) - Perfect accuracy
+- **Invasion: The Abductors** (invasnab) - Perfect accuracy and working reload (must choose "fixed (bottom right)" in the "lightgun offscreen position" core option)
+- **Jurassic Park** (jpark) - Better accuracy (need to map gun axes manually)
 - **Triple Hunt** (triplhnt) - Adds the ability to make two clones of the game.  Triple Hunt is 3 games in 1: Witch Hunt, Hit the Bear and Raccoon Hunt.  Dipswitch settings in the Tab menu can switch between the three game modes, but with this hack you can make two duplicates or symlinks of the triplhnt rom, naming them _triplhna.zip_ and _triplhnb.zip_ and each clone will use a seperate game config allowing you to have each instance set up for each of the game modes individually accessible directly from your retropie gamelist instead of having to mess around changing things in the tab menu.
 
 **lr-mess-StormedBubbles** 
