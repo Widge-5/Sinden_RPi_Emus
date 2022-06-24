@@ -31,6 +31,7 @@ Here are the features that each hacked/unofficial emulator can provide:
 - **Great Guns** (greatgun) - Perfect accuracy
 - **Invasion: The Abductors** (invasnab) - Perfect accuracy and working reload (must choose "fixed (bottom right)" in the "lightgun offscreen position" core option)
 - **Jurassic Park** (jpark) - Better accuracy (need to map gun axes manually)
+- **Poka Poka Satan** (ppsatan) - Perfect accuracy. Need to display all 3 monitors on screen. Port 1 gun aims at right screen, and Port 2 gun aims at left screen. In all game modes, either one gun must be assigned to control ports 1 and 2 or two guns must be used.
 - **Triple Hunt** (triplhnt) - Adds the ability to make two clones of the game.  Triple Hunt is 3 games in 1: Witch Hunt, Hit the Bear and Raccoon Hunt.  Dipswitch settings in the Tab menu can switch between the three game modes, but with this hack you can make two duplicates or symlinks of the triplhnt rom, naming them _triplhna.zip_ and _triplhnb.zip_ and each clone will use a seperate game config allowing you to have each instance set up for each of the game modes individually accessible directly from your retropie gamelist instead of having to mess around changing things in the tab menu.
 
 **lr-mess-StormedBubbles** 
