@@ -8,10 +8,12 @@ Please note that no roms are provided here.
 Here are the features that each hacked/unofficial emulator can provide:
 
 **lr-mame2010-StormedBubbles** 
+- **New core option** (lightgun offscreen position) - Determine the corner in which all offscreen shots are fired (top left or bottom right), or allow the cursor to move freely along the screen edges
 - **Blue Shark** (blueshrk) - Perfect accuracy when using the gun as a paddle controller
 - **Born to Fight** (borntofi) - Better accuracy
 
 **lr-mame2015-StormedBubbles** 
+- **New core option** (lightgun offscreen position) - Determine the corner in which all offscreen shots are fired (top left or bottom right), or allow the cursor to move freely along the screen edges
 - **Blue Shark** (blueshrk) - Perfect accuracy for using the gun as a paddle controller
 - **Born to Fight** (borntofi) - Better accuracy
 - **ClayBuster** (claybust) - Better accuracy
