@@ -29,10 +29,12 @@ Here are the features that each hacked/unofficial emulator can provide:
 - **New core option** (lightgun offscreen position) - Determine the corner in which all offscreen shots are fired (top left or bottom right), or allow the cursor to move freely along the screen edges
 - **Blue Shark** (blueshrk) - Perfect accuracy for using the gun as a paddle controller
 - **Born to Fight** (borntofi) - Better accuracy
+- **Circus** (circus) - Perfect accuracy for using the gun as a paddle controller
 - **ClayBuster** (claybust) - Better accuracy
-- **Dead Eye** (deadeye) - Perfect accuracy
+- **Clowns** (clowns) - Perfect accuracy for using the gun as a paddle controller
+- **Dead Eye** (deadeye) - Perfect accuracy for using the gun as a paddle controller
 - **Great Guns** (greatgun) - Perfect accuracy
-- **Gypsy Juggler** (gypsyjug) - Perfect accuracy
+- **Gypsy Juggler** (gypsyjug) - Perfect accuracy for using the gun as a paddle controller
 - **Invasion: The Abductors** (invasnab) - Perfect accuracy and working reload (must choose "fixed (bottom right)" in the "lightgun offscreen position" core option)
 - **Jurassic Park** (jpark) - Better accuracy
 - **Poka Poka Satan** (ppsatan) - Perfect accuracy between crosshair and gun sight. Need to display all 3 monitors on screen. Port 1 gun aims at right screen, and Port 2 gun aims at left screen. Need to keep trigger pulled briefly for shot to register. This can give the impression of inaccurate shots. In all game modes, either one gun must be assigned to control ports 1 and 2 or two guns must be used.
