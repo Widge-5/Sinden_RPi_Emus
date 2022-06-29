@@ -56,7 +56,7 @@ Here are the features that each hacked/unofficial emulator can provide:
 
 **lr-mess-StormedBubbles** 
 - **Mission: Paintball Powered Up** (pballpup) - Perfect accuracy correction
-- **Star Wars: The Clone Wars** (swclone) - Perfect accuracy correction
+- **Star Wars: Clone Trooper Blaster Game** (swclone) - Perfect accuracy correction
 - **Teenage Mutant Ninja Turtles: Mutant & Monster Mayhem** (tmntmutm) - Perfect accuracy correction
 
 **lr-flycast-flyinghead** 
