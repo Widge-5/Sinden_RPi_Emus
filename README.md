@@ -13,6 +13,7 @@ Here are the features that each hacked/unofficial emulator can provide:
 - **Born to Fight** (borntofi) - Better accuracy
 - **Duck Hunt (PlayChoice-10)** (pc_duckh) - Perfect accuracy in any video mode. You must use the gun assigned to RetroArch's port 1 and assign the gun axes in the MAME ROM-specific cfg file accordingly (`GUNCODE_1` for single screen, `GUNCODE_2` for stacked, `GUNCODE_3` for side by side). Requires RetroArch 1.10.4+ with wide border, RetroArch 1.10.0 with wide X and fitting Y border, or older RetroArch with fitting border.
 - **Hogan's Alley (PlayChoice-10)** (pc_hgaly) - Same as Duck Hunt
+- **Space Walk** (spacwalk) - Better accuracy. Due to the platform changing positions at screen center, the best alignment seems to occur if the gun sight lines up with the platform's right edge on the left side of the screen and the platform's left edge on the right side of the screen.
 
 **lr-mame2015-StormedBubbles** 
 - **New core option** (lightgun offscreen position) - Determine the corner in which all offscreen shots are fired (top left or bottom right), or allow the cursor to move freely along the screen edges
@@ -52,6 +53,7 @@ Here are the features that each hacked/unofficial emulator can provide:
 - **Jurassic Park** (jpark) - Better accuracy
 - **Mazer Blazer** (mazerbla) - Better accuracy
 - **Poka Poka Satan** (ppsatan) - Perfect accuracy between crosshair and gun sight. Need to display all 3 monitors on screen. Port 1 gun aims at right screen, and Port 2 gun aims at left screen. Need to keep trigger pulled briefly for shot to register. This can give the impression of inaccurate shots. In all game modes, either one gun must be assigned to control ports 1 and 2 or two guns must be used.
+- **Space Walk** (spacwalk) - Better accuracy. Due to the platform changing positions at screen center, the best alignment seems to occur if the gun sight lines up with the platform's right edge on the left side of the screen and the platform's left edge on the right side of the screen.
 - **Triple Hunt** (triplhnt) - Adds the ability to make two clones of the game.  Triple Hunt is 3 games in 1: Witch Hunt, Hit the Bear and Raccoon Hunt.  Dipswitch settings in the Tab menu can switch between the three game modes, but with this hack you can make two duplicates or symlinks of the triplhnt rom, naming them _triplhna.zip_ and _triplhnb.zip_ and each clone will use a separate game config allowing you to have each instance set up for each of the game modes individually accessible directly from your retropie gamelist instead of having to mess around changing things in the tab menu.
 - **Wild Gunman (PlayChoice-10)** (pc_wgnmn) - Same as Duck Hunt
 
