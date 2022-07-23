@@ -57,8 +57,8 @@ Here are the features that each hacked/unofficial emulator can provide:
 - **Jurassic Park** (jpark) - Better accuracy
 - **Lucky & Wild** (luckywld) - Better accuracy for player 2 and adjustments to default mappings. lr-mame has more analog controls than other MAME cores, and these unfortunately sometimes interfere with each other. As a result, we only set the things listed below as defaults. The rest should be mapped by the user. The L2 and R2 buttons can be used as analog inputs in lr-mame. R2 appears as analog axis Z, while L2 appears as analog axis RZ. To map as an analog button, you'd use `JOYCODE_#_ZAXIS_NEG_ABSOLUTE` (R1) or `JOYCODE_#_RZAXIS_NEG_ABSOLUTE` (L1) under the analog section for the particular input you want (where `#` is the player number from 1-8). To map as a digital button, you'd use `JOYCODE_#_ZAXIS_NEG_SWITCH` (R1) or `JOYCODE_#_RZAXIS_NEG_SWITCH` (L1) under the increasing portion of the digital controls for a particular input. These are the default controls mentioned earlier:
   - Steering: P1 left stick X (analog), left/right arrow keys (digital)
-  - Braking: down arrow (digital)
-  - Accelerating: up arrow (digital)
+  - Braking: P1 L2 (analog), down arrow (digital)
+  - Accelerating: P1 R2 (analog), up arrow (digital)
 - **Mazer Blazer** (mazerbla) - Better accuracy
 - **Poka Poka Satan** (ppsatan) - Perfect accuracy between crosshair and gun sight. Need to display all 3 monitors on screen. Port 1 gun aims at right screen, and Port 2 gun aims at left screen. Need to keep trigger pulled briefly for shot to register. This can give the impression of inaccurate shots. In all game modes, either one gun must be assigned to control ports 1 and 2 or two guns must be used.
 - **Space Walk** (spacwalk) - Better accuracy. Due to the platform changing positions at screen center, the best alignment seems to occur if the gun sight lines up with the platform's right edge on the left side of the screen and the platform's left edge on the right side of the screen.
