@@ -13,7 +13,10 @@ Here are the features that each hacked/unofficial emulator can provide:
 - **Born to Fight** (borntofi) - Better accuracy
 - **Duck Hunt (PlayChoice-10)** (pc_duckh) - Perfect accuracy in any video mode. You must use the gun assigned to RetroArch's port 1 and assign the gun axes in the MAME ROM-specific cfg file accordingly (`GUNCODE_1` for single screen, `GUNCODE_2` for stacked, `GUNCODE_3` for side by side). Requires RetroArch 1.10.4+ with wide border, RetroArch 1.10.0 with wide X and fitting Y border, or older RetroArch with fitting border.
 - **Hogan's Alley (PlayChoice-10)** (pc_hgaly) - Same as Duck Hunt
-- **Lucky & Wild** (luckywld) - Better accuracy for player 2 and adjustments to default mappings
+- **Lucky & Wild** (luckywld) - Better accuracy for player 2 and adjustments to default mappings. We set this up to allow several play styles, but you may want to change things to your liking.
+  - Steering: P1 left stick X (analog), P1 D-pad left/right (digital), left/right arrow keys (digital)
+  - Braking: P1 right stick Y down (analog), P1 L2 (digital), P1 D-pad down (digital), down arrow (digital)
+  - Accelerating: P1 right stick Y up (analog), P1 L1/R1 (digital), P1 D-pad up (digital), up arrow (digital)
 - **Space Walk** (spacwalk) - Better accuracy. Due to the platform changing positions at screen center, the best alignment seems to occur if the gun sight lines up with the platform's right edge on the left side of the screen and the platform's left edge on the right side of the screen.
 
 **lr-mame2015-StormedBubbles** 
@@ -52,7 +55,12 @@ Here are the features that each hacked/unofficial emulator can provide:
 - **Gypsy Juggler** (gypsyjug) - Perfect accuracy for using the gun as a paddle controller
 - **Invasion: The Abductors** (invasnab) - Perfect accuracy and working reload (must choose "fixed (bottom right)" in the "lightgun offscreen position" core option)
 - **Jurassic Park** (jpark) - Better accuracy
-- **Lucky & Wild** (luckywld) - Better accuracy for player 2 and adjustments to default mappings
+- **Lucky & Wild** (luckywld) - Better accuracy for player 2 and adjustments to default mappings. lr-mame has more analog controls than other MAME cores, and these unfortunately sometimes interfere with each other. As a result, we only set the following as defaults:
+  - Steering: P1 left stick X (analog), left/right arrow keys (digital)
+  - Braking: down arrow (digital)
+  - Accelerating: up arrow (digital)
+
+The rest should be mapped by the user. The L2 and R2 buttons can be used as analog inputs in lr-mame. L2 appears as analog axis RZ, while R2 appears as analog axis Z. To map as an analog button, you'd use `JOYCODE_1_ZAXIS_NEG_ABSOLUTE` (R1) or `JOYCODE_1_RZAXIS_NEG_ABSOLUTE` (L1) under the analog section for the particular input you want. To map as a digital button, you'd use `JOYCODE_1_ZAXIS_NEG_SWITCH` (R1) or `JOYCODE_1_RZAXIS_NEG_SWITCH` (L1) under the increasing portion of the digital controls for a particular input.
 - **Mazer Blazer** (mazerbla) - Better accuracy
 - **Poka Poka Satan** (ppsatan) - Perfect accuracy between crosshair and gun sight. Need to display all 3 monitors on screen. Port 1 gun aims at right screen, and Port 2 gun aims at left screen. Need to keep trigger pulled briefly for shot to register. This can give the impression of inaccurate shots. In all game modes, either one gun must be assigned to control ports 1 and 2 or two guns must be used.
 - **Space Walk** (spacwalk) - Better accuracy. Due to the platform changing positions at screen center, the best alignment seems to occur if the gun sight lines up with the platform's right edge on the left side of the screen and the platform's left edge on the right side of the screen.
