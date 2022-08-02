@@ -66,8 +66,8 @@ Here are the features that each hacked/unofficial emulator can provide:
 - **Wild Gunman (PlayChoice-10)** (pc_wgnmn) - Same as Duck Hunt
 
 **lr-mess-StormedBubbles** 
-- **Mission: Paintball Powered Up** (pballpup) - Perfect accuracy correction
-- **Star Wars: Clone Trooper Blaster Game** (swclone) - Perfect accuracy correction
+- **Mission: Paintball Powered Up** (pballpup) - Perfect accuracy correction. Needs "Boot from CLI" enabled in core options.
+- **Star Wars: Clone Trooper Blaster Game** (swclone) - Perfect accuracy correction. Needs "Boot from CLI" enabled in core options.
 - **Teenage Mutant Ninja Turtles: Mutant & Monster Mayhem** (tmntmutm) - Perfect accuracy correction
 
 **lr-flycast-flyinghead** 
