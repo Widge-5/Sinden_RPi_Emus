@@ -8,6 +8,7 @@ Please note that no roms are provided here.
 
 | Description     | lr-mame2010-StormedBubbles | lr-mame2015-StormedBubbles | lr-mame2016-StormedBubbles | lr-mame-StormedBubbles |
 | --------------- | :------------------------: | :------------------------: | :------------------------: | :--------------------: |
+| Gun buttons     |             X              |            WIP             |            WIP             |          WIP           |
 | New core option |             X              |             X              |             X              |           X            |
 | `blueshrk`      |             X              |             X              |             X              |           X            |
 | `borntofi`      |             X              |             X              |             X              |           X            |
@@ -32,7 +33,8 @@ Please note that no roms are provided here.
 
 
 **Details:**
-- **New core option** (lightgun offscreen position) - Determine the corner in which all offscreen shots are fired (top left or bottom right), or allow the cursor to move freely along the screen edges
+- **Gun buttons** - Gun Trigger (button 1), Gun Aux A (button 2), Gun Aux B (button 3), Gun Aux C (button 4), Gun Select (coin), Gun Start (start), Gun D-Pad (digital up, down, left, right), and Gun Reload (simulated offscreen shot)
+- **New core option** (lightgun offscreen position) - Determine the corner in which all offscreen shots are fired (top left or bottom right), or allow the cursor to move freely along the screen edges. The Gun Reload input fires a shot at the bottom right if that fixed position is selected but fires at the top left otherwise
 - `blueshrk` (**Blue Shark**) - Perfect accuracy when using the gun as a paddle controller. Use Widge-5's artwork.
 - `borntofi` (**Born to Fight**) - Better accuracy
 - `cclownz` (**Crazzy Clownz**) - Perfect accuracy for using the gun as a paddle controller
