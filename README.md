@@ -51,7 +51,7 @@ Please note that no roms are provided here.
 - `gdfs` (**Mobil Suit Gundam: Final Shooting**) - Better accuracy
 - `greatgun` (**Great Guns**) - Perfect accuracy
 - `gypsyjug` (**Gypsy Juggler**) - Perfect accuracy for using the gun as a paddle controller
-- `invasnab` (**Invasion: The Abductors**) - Perfect accuracy and working reload (must choose "fixed (bottom right)" in the "lightgun offscreen position" core option). Gun Reload input does NOT work for this game
+- `invasnab` (**Invasion: The Abductors**) - Perfect accuracy and working reload (must choose "fixed (bottom right)" in the "lightgun offscreen position" core option). Gun Reload button input does NOT work for this game. You must aim and shoot offscreen
 - `jpark` (**Jurassic Park**) - Better accuracy
 - `luckywld` (**Lucky & Wild**) - Better accuracy for player 2 and adjustments to default mappings. We set this up to allow several play styles, but you may want to change things to your liking.
   - Details for lr-mame2010-StormedBubbles:
