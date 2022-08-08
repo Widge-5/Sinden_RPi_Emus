@@ -46,7 +46,7 @@ Details are given below the table.
 - `borntofi` (**Born to Fight**) - Better accuracy
 - `cclownz` (**Crazzy Clownz**) - Perfect accuracy for using the gun as a paddle controller
 - `circus` (**Circus**) - Perfect accuracy for using the gun as a paddle controller
-- `claybust` (**ClayBuster**) - Better accuracy
+- `claybust` (**ClayBuster**) - Better accuracy. Use [Widge-5's artwork](https://github.com/Widge-5/claybust-mame-artwork)
 - `clowns` (**Clowns**) - Perfect accuracy for using the gun as a paddle controller
 - `deadeye` (**Dead Eye**) - Perfect accuracy for using the gun as a paddle controller
 - `gdfs` (**Mobil Suit Gundam: Final Shooting**) - Better accuracy
