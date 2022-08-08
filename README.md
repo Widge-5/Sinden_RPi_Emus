@@ -6,33 +6,39 @@ Please note that no roms are provided here.
 
 # Hacks and changes made to MAME cores
 
-| Description     | lr-mame2010-StormedBubbles | lr-mame2015-StormedBubbles | lr-mame2016-StormedBubbles | lr-mame-StormedBubbles |
-| --------------- | :------------------------: | :------------------------: | :------------------------: | :--------------------: |
-| Gun buttons     |             X              |            WIP             |            WIP             |          WIP           |
-| New core option |             X              |             X              |             X              |           X            |
-| `blueshrk`      |             X              |             X              |             X              |           X            |
-| `borntofi`      |             X              |             X              |             X              |           X            |
-| `cclownz`       |                            |                            |                            |           X            |
-| `circus`        |                            |                            |                            |           X            |
-| `claybust`      |                            |             X              |             X              |           X            |
-| `clowns`        |                            |                            |                            |           X            |
-| `deadeye`       |                            |                            |                            |           X            |
-| `gdfs`          |             X              |                            |                            |                        |
-| `greatgun`      |                            |                            |                            |           X            |
-| `gypsyjug`      |                            |                            |                            |           X            |
-| `invasnab`      |                            |                            |             X              |           X            |
-| `jpark`         |             X              |                            |                            |           X            |
-| `luckywld`      |             X              |                            |                            |           X            |
-| `mazerbla`      |             X              |                            |                            |           X            |
-| `pc_duckh`      |             X              |             X              |             X              |           X            |
-| `pc_hgaly`      |             X              |             X              |             X              |           X            |
-| `pc_wgnmn`      |                            |             X              |             X              |           X            |
-| `ppsatan`       |                            |             X              |             X              |           X            |
-| `spacwalk`      |             X              |                            |                            |           X            |
-| `triplhnt`      |                            |                            |                            |           X            |
+| Description      | lr-mame2010-StormedBubbles | lr-mame2015-StormedBubbles | lr-mame2016-StormedBubbles | lr-mame-StormedBubbles |
+| ---------------- | :------------------------: | :------------------------: | :------------------------: | :--------------------: |
+| Max. players     |             8              |             4              |             4              |           8            |
+| Lightgun support |             X              |             X              |             X              |           X            |
+| Mouse support    |             X              |             X              |             X              |           X            |
+| Gun buttons      |             X              |            WIP             |            WIP             |          WIP           |
+| New core option  |             X              |             X              |             X              |           X            |
+| `blueshrk`       |             X              |             X              |             X              |           X            |
+| `borntofi`       |             X              |             X              |             X              |           X            |
+| `cclownz`        |                            |                            |                            |           X            |
+| `circus`         |                            |                            |                            |           X            |
+| `claybust`       |                            |             X              |             X              |           X            |
+| `clowns`         |                            |                            |                            |           X            |
+| `deadeye`        |                            |                            |                            |           X            |
+| `gdfs`           |             X              |                            |                            |                        |
+| `greatgun`       |                            |                            |                            |           X            |
+| `gypsyjug`       |                            |                            |                            |           X            |
+| `invasnab`       |                            |                            |             X              |           X            |
+| `jpark`          |             X              |                            |                            |           X            |
+| `luckywld`       |             X              |                            |                            |           X            |
+| `mazerbla`       |             X              |                            |                            |           X            |
+| `pc_duckh`       |             X              |             X              |             X              |           X            |
+| `pc_hgaly`       |             X              |             X              |             X              |           X            |
+| `pc_wgnmn`       |                            |             X              |             X              |           X            |
+| `ppsatan`        |                            |             X              |             X              |           X            |
+| `spacwalk`       |             X              |                            |                            |           X            |
+| `triplhnt`       |                            |                            |                            |           X            |
 
 
 **Details:**
+- **Max. players** - Maximum number of users. This number applies to joypads, lightguns, and mice (so multi-mouse/gun is supported in each of these cores). 2010, 2015, and 2016 force you to choose between absolute coordinates (lightgun) and relative coordinates (mouse) in the **XY Device (Restart)** core option. lr-mame allows absolute and relative coordinates to be used simultaneously, but you will want to disable one when using the other.
+- **Lightgun support** - Uses absolute coordinates. This is known to be compatible with and give line-of-sight alignment for Gun4IR and Sinden. Regular mice can be used here, but crosshairs should be enabled. This is meant for lightgun games, though some AD_stick, paddle, and positional games will also work well. The lightgun axes are mapped by default to all of these control types. We improved accuracy for several of these non-lightgun games, so feel free to let us know if you find a working game that could benefit from accuracy correction
+- **Mouse support** - Uses relative coordinates. This is meant for trackball, dial, and spinner games.
 - **Gun buttons** - Gun Trigger (button 1), Gun Aux A (button 2), Gun Aux B (button 3), Gun Aux C (button 4), Gun Select (coin), Gun Start (start), Gun D-Pad (digital up, down, left, right), and Gun Reload (simulated offscreen shot)
 - **New core option** (lightgun offscreen position) - Determine the corner in which all offscreen shots are fired (top left or bottom right), or allow the cursor to move freely along the screen edges. The Gun Reload input fires a shot at the bottom right if that fixed position is selected but fires at the top left otherwise
 - `blueshrk` (**Blue Shark**) - Perfect accuracy when using the gun as a paddle controller. Use Widge-5's artwork.
