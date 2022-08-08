@@ -9,7 +9,7 @@ Details are given below the table.
 
 | Description      | lr-mame2010-StormedBubbles | lr-mame2015-StormedBubbles | lr-mame2016-StormedBubbles | lr-mame-StormedBubbles |
 | ---------------- | :------------------------: | :------------------------: | :------------------------: | :--------------------: |
-| Max. players     |             8              |             4              |             4              |           8            |
+| Max. players     |             8              |             4 (WIP)        |             4 (WIP)        |           8            |
 | Lightgun support |             X              |             X              |             X              |           X            |
 | Mouse support    |             X              |             X              |             X              |           X            |
 | Gun buttons      |             X              |            WIP             |            WIP             |          WIP           |
@@ -21,7 +21,7 @@ Details are given below the table.
 | `claybust`       |                            |             X              |             X              |           X            |
 | `clowns`         |                            |                            |                            |           X            |
 | `deadeye`        |                            |                            |                            |           X            |
-| `gdfs`           |             X              |                            |                            |                        |
+| `gdfs`           |             X              |            WIP             |            WIP             |          WIP           |
 | `greatgun`       |                            |                            |                            |           X            |
 | `gypsyjug`       |                            |                            |                            |           X            |
 | `invasnab`       |                            |                            |             X              |           X            |
