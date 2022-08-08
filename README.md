@@ -4,8 +4,7 @@ Repository of installation scripts and binaries for unofficial and/or hacked emu
 Please note that no roms are provided here.
 
 
-# What can they do?
-Here are the features that each hacked/unofficial emulator can provide:
+# Hacks and changes made to MAME cores
 
 | Description     | lr-mame2010-StormedBubbles | lr-mame2015-StormedBubbles | lr-mame2016-StormedBubbles | lr-mame-StormedBubbles |
 | --------------- | :------------------------: | :------------------------: | :------------------------: | :--------------------: |
@@ -64,6 +63,8 @@ Here are the features that each hacked/unofficial emulator can provide:
 - `ppsatan` (**Poka Poka Satan**) - Perfect accuracy between crosshair and gun sight. Need to display all 3 monitors on screen. Port 1 gun aims at right screen, and Port 2 gun aims at left screen. Need to keep trigger pulled briefly for shot to register. This can give the impression of inaccurate shots. In all game modes, either one gun must be assigned to control ports 1 and 2 or two guns must be used.
 - `spacwalk` (**Space Walk**) - Better accuracy. Due to the platform changing positions at screen center, the best alignment seems to occur if the gun sight lines up with the platform's right edge on the left side of the screen and the platform's left edge on the right side of the screen.
 - `triplhnt` (**Triple Hunt**) - Adds the ability to make two clones of the game.  Triple Hunt is 3 games in 1: Witch Hunt, Hit the Bear and Raccoon Hunt.  Dipswitch settings in the Tab menu can switch between the three game modes, but with this hack you can make two duplicates or symlinks of the triplhnt rom, naming them _triplhna.zip_ and _triplhnb.zip_ and each clone will use a separate game config allowing you to have each instance set up for each of the game modes individually accessible directly from your retropie gamelist instead of having to mess around changing things in the tab menu.
+
+# Other cores
 
 **lr-mess-StormedBubbles** 
 - **Mission: Paintball Powered Up** (pballpup) - Perfect accuracy correction. Needs "Boot from CLI" enabled in core options.
