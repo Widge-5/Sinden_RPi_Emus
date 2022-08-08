@@ -89,11 +89,11 @@ Details are given below the table.
 
 **lr-duckstation** - a discontinued core that is no longer available via RetroPie-Setup.
 - **Gunfighter: The Legend of Jesse James** - It might be the best way to play this game on the Raspberry Pi.
-- **Judge Dredd** - runs, but there is only support for one lightgun so a 2 player game is not possible.
+- **Judge Dredd** - runs, but there is only support for one lightgun so a 2-player game is not possible.
 
 **lr-swanstation** - an in-development core that was forked from duckstation and not yet available via RetroPie-Setup.
 - **Gunfighter: The Legend of Jesse James** - It is capable of running this game on the Raspberry Pi.
-- **Judge Dredd** - runs, but there is only support for one lightgun so a 2 player game is not possible.
+- **Judge Dredd** - runs, but there is only support for one lightgun so a 2-player game is not possible.
 
 
 # Installing via RetroPie-Setup
