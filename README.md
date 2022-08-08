@@ -12,6 +12,7 @@ Here are the features that each hacked/unofficial emulator can provide:
 - **Blue Shark** (blueshrk) - Perfect accuracy when using the gun as a paddle controller. Use Widge-5's artwork.
 - **Born to Fight** (borntofi) - Better accuracy
 - **Duck Hunt (PlayChoice-10)** (pc_duckh) - Perfect accuracy in any video mode. You must use the gun assigned to RetroArch's port 1 and assign the gun axes in the MAME ROM-specific cfg file accordingly (`GUNCODE_1` for single screen, `GUNCODE_2` for stacked, `GUNCODE_3` for side by side). Requires RetroArch 1.10.4+ with wide border, RetroArch 1.10.0 with wide X and fitting Y border, or older RetroArch with fitting border.
+- **Mobil Suit Gundam: Final Shooting** (gdfs) - Better accuracy
 - **Hogan's Alley (PlayChoice-10)** (pc_hgaly) - Same as Duck Hunt
 - **Lucky & Wild** (luckywld) - Better accuracy for player 2 and adjustments to default mappings. We set this up to allow several play styles, but you may want to change things to your liking.
   - Steering: P1 left stick X (analog), P1 D-pad left/right (digital), left/right arrow keys (digital)
