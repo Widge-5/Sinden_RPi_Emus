@@ -7,64 +7,63 @@ Please note that no roms are provided here.
 # What can they do?
 Here are the features that each hacked/unofficial emulator can provide:
 
-**lr-mame2010-StormedBubbles** 
-- **New core option** (lightgun offscreen position) - Determine the corner in which all offscreen shots are fired (top left or bottom right), or allow the cursor to move freely along the screen edges
-- **Blue Shark** (blueshrk) - Perfect accuracy when using the gun as a paddle controller. Use Widge-5's artwork.
-- **Born to Fight** (borntofi) - Better accuracy
-- **Duck Hunt (PlayChoice-10)** (pc_duckh) - Perfect accuracy in any video mode. You must use the gun assigned to RetroArch's port 1 and assign the gun axes in the MAME ROM-specific cfg file accordingly (`GUNCODE_1` for single screen, `GUNCODE_2` for stacked, `GUNCODE_3` for side by side). Requires RetroArch 1.10.4+ with wide border, RetroArch 1.10.0 with wide X and fitting Y border, or older RetroArch with fitting border.
-- **Mobil Suit Gundam: Final Shooting** (gdfs) - Better accuracy
-- **Hogan's Alley (PlayChoice-10)** (pc_hgaly) - Same as Duck Hunt
-- **Lucky & Wild** (luckywld) - Better accuracy for player 2 and adjustments to default mappings. We set this up to allow several play styles, but you may want to change things to your liking.
-  - Steering: P1 left stick X (analog), P1 D-pad left/right (digital), left/right arrow keys (digital)
-  - Braking: P1 right stick Y down (analog), P1 L2 (digital), P1 D-pad down (digital), down arrow (digital)
-  - Accelerating: P1 right stick Y up (analog), P1 L1/R1 (digital), P1 D-pad up (digital), up arrow (digital)
-- **Space Walk** (spacwalk) - Better accuracy. Due to the platform changing positions at screen center, the best alignment seems to occur if the gun sight lines up with the platform's right edge on the left side of the screen and the platform's left edge on the right side of the screen.
+| Description     | lr-mame2010-StormedBubbles | lr-mame2015-StormedBubbles | lr-mame2016-StormedBubbles | lr-mame-StormedBubbles |
+| --------------- | :------------------------: | :------------------------: | :------------------------: | :--------------------: |
+| New core option |             X              |             X              |             X              |           X            |
+| `blueshrk`      |             X              |             X              |             X              |           X            |
+| `borntofi`      |             X              |             X              |             X              |           X            |
+| `cclownz`       |                            |                            |                            |           X            |
+| `circus`        |                            |                            |                            |           X            |
+| `claybust`      |                            |             X              |             X              |           X            |
+| `clowns`        |                            |                            |                            |           X            |
+| `deadeye`       |                            |                            |                            |           X            |
+| `gdfs`          |             X              |                            |                            |                        |
+| `greatgun`      |                            |                            |                            |           X            |
+| `gypsyjug`      |                            |                            |                            |           X            |
+| `invasnab`      |                            |                            |             X              |           X            |
+| `jpark`         |             X              |                            |                            |           X            |
+| `luckywld`      |             X              |                            |                            |           X            |
+| `mazerbla`      |             X              |                            |                            |           X            |
+| `pc_duckh`      |             X              |             X              |             X              |           X            |
+| `pc_hgaly`      |             X              |             X              |             X              |           X            |
+| `pc_wgnmn`      |                            |             X              |             X              |           X            |
+| `ppsatan`       |                            |             X              |             X              |           X            |
+| `spacwalk`      |             X              |                            |                            |           X            |
+| `triplhnt`      |                            |                            |                            |           X            |
 
-**lr-mame2015-StormedBubbles** 
-- **New core option** (lightgun offscreen position) - Determine the corner in which all offscreen shots are fired (top left or bottom right), or allow the cursor to move freely along the screen edges
-- **Blue Shark** (blueshrk) - Perfect accuracy for using the gun as a paddle controller. Use Widge-5's artwork.
-- **Born to Fight** (borntofi) - Better accuracy
-- **ClayBuster** (claybust) - Better accuracy
-- **Duck Hunt (PlayChoice-10)** (pc_duckh) - Perfect accuracy in any video mode. You must use the gun assigned to RetroArch's port 1 and assign the gun axes in the MAME ROM-specific cfg file accordingly (`GUNCODE_1` for single screen, `GUNCODE_2` for stacked, `GUNCODE_3` for side by side). Requires RetroArch 1.10.4+ with wide border, RetroArch 1.10.0 with wide X and fitting Y border, or older RetroArch with fitting border.
-- **Hogan's Alley (PlayChoice-10)** (pc_hgaly) - Same as Duck Hunt
-- **Poka Poka Satan** (ppsatan) - Perfect accuracy between crosshair and gun sight. Need to display all 3 monitors on screen. Port 1 gun aims at right screen, and Port 2 gun aims at left screen. Need to keep trigger pulled briefly for shot to register. This can give the impression of inaccurate shots. In all game modes, either one gun must be assigned to control ports 1 and 2 or two guns must be used.
-- **Wild Gunman (PlayChoice-10)** (pc_wgnmn) - Same as Duck Hunt
 
-**lr-mame2016-StormedBubbles** 
+**Details:**
 - **New core option** (lightgun offscreen position) - Determine the corner in which all offscreen shots are fired (top left or bottom right), or allow the cursor to move freely along the screen edges
-- **Blue Shark** (blueshrk) - Perfect accuracy for using the gun as a paddle controller. Use Widge-5's artwork.
-- **Born to Fight** (borntofi) - Better accuracy
-- **ClayBuster** (claybust) - Better accuracy
-- **Duck Hunt (PlayChoice-10)** (pc_duckh) - Perfect accuracy in any video mode. You must use the gun assigned to RetroArch's port 1 and assign the gun axes in the MAME ROM-specific cfg file accordingly (`GUNCODE_1` for single screen, `GUNCODE_2` for stacked, `GUNCODE_3` for side by side). Requires RetroArch 1.10.4+ with wide border, RetroArch 1.10.0 with wide X and fitting Y border, or older RetroArch with fitting border.
-- **Hogan's Alley (PlayChoice-10)** (pc_hgaly) - Same as Duck Hunt
-- **Invasion: The Abductors** (invasnab) - Perfect accuracy and working reload (must choose "fixed (bottom right)" in the "lightgun offscreen position" core option)
-- **Poka Poka Satan** (ppsatan) - Perfect accuracy between crosshair and gun sight. Need to display all 3 monitors on screen. Port 1 gun aims at right screen, and Port 2 gun aims at left screen. Need to keep trigger pulled briefly for shot to register. This can give the impression of inaccurate shots. In all game modes, either one gun must be assigned to control ports 1 and 2 or two guns must be used.
-- **Wild Gunman (PlayChoice-10)** (pc_wgnmn) - Same as Duck Hunt
-
-**lr-mame-StormedBubbles** 
-- **New core option** (lightgun offscreen position) - Determine the corner in which all offscreen shots are fired (top left or bottom right), or allow the cursor to move freely along the screen edges
-- **Blue Shark** (blueshrk) - Perfect accuracy for using the gun as a paddle controller. Use Widge-5's artwork.
-- **Born to Fight** (borntofi) - Better accuracy
-- **Circus** (circus) - Perfect accuracy for using the gun as a paddle controller
-- **ClayBuster** (claybust) - Better accuracy
-- **Clowns** (clowns) - Perfect accuracy for using the gun as a paddle controller
-- **Crazzy Clownz** (cclownz) - Perfect accuracy for using the gun as a paddle controller
-- **Dead Eye** (deadeye) - Perfect accuracy for using the gun as a paddle controller
-- **Duck Hunt (PlayChoice-10)** (pc_duckh) - Perfect accuracy in any video mode. You must use the gun assigned to RetroArch's port 1 and assign the gun axes in the MAME ROM-specific cfg file accordingly (`GUNCODE_1` for single screen, `GUNCODE_2` for stacked, `GUNCODE_3` for side by side). Requires RetroArch 1.10.4+ with wide border, RetroArch 1.10.0 with wide X and fitting Y border, or older RetroArch with fitting border.
-- **Hogan's Alley (PlayChoice-10)** (pc_hgaly) - Same as Duck Hunt
-- **Great Guns** (greatgun) - Perfect accuracy
-- **Gypsy Juggler** (gypsyjug) - Perfect accuracy for using the gun as a paddle controller
-- **Invasion: The Abductors** (invasnab) - Perfect accuracy and working reload (must choose "fixed (bottom right)" in the "lightgun offscreen position" core option)
-- **Jurassic Park** (jpark) - Better accuracy
-- **Lucky & Wild** (luckywld) - Better accuracy for player 2 and adjustments to default mappings. lr-mame has more analog controls than other MAME cores, and these unfortunately sometimes interfere with each other. As a result, we only set the things listed below as defaults. The rest should be mapped by the user. The L2 and R2 buttons can be used as analog inputs in lr-mame. R2 appears as analog axis Z, while L2 appears as analog axis RZ. To map as an analog button, you'd use `JOYCODE_#_ZAXIS_NEG_ABSOLUTE` (R2) or `JOYCODE_#_RZAXIS_NEG_ABSOLUTE` (L2) under the analog section for the particular input you want (where `#` is the player number from 1-8). To map as a digital button, you'd use `JOYCODE_#_ZAXIS_NEG_SWITCH` (R2) or `JOYCODE_#_RZAXIS_NEG_SWITCH` (L2) under the increasing portion of the digital controls for a particular input. Be sure to clear out any analog controls for an input if using digital versions of the same buttons (and vice versa). These are the default controls mentioned earlier:
-  - Steering: P1 left stick X (analog), left/right arrow keys (digital)
-  - Braking: P1 L2 (analog), down arrow (digital)
-  - Accelerating: P1 R2 (analog), up arrow (digital)
-- **Mazer Blazer** (mazerbla) - Better accuracy
-- **Poka Poka Satan** (ppsatan) - Perfect accuracy between crosshair and gun sight. Need to display all 3 monitors on screen. Port 1 gun aims at right screen, and Port 2 gun aims at left screen. Need to keep trigger pulled briefly for shot to register. This can give the impression of inaccurate shots. In all game modes, either one gun must be assigned to control ports 1 and 2 or two guns must be used.
-- **Space Walk** (spacwalk) - Better accuracy. Due to the platform changing positions at screen center, the best alignment seems to occur if the gun sight lines up with the platform's right edge on the left side of the screen and the platform's left edge on the right side of the screen.
-- **Triple Hunt** (triplhnt) - Adds the ability to make two clones of the game.  Triple Hunt is 3 games in 1: Witch Hunt, Hit the Bear and Raccoon Hunt.  Dipswitch settings in the Tab menu can switch between the three game modes, but with this hack you can make two duplicates or symlinks of the triplhnt rom, naming them _triplhna.zip_ and _triplhnb.zip_ and each clone will use a separate game config allowing you to have each instance set up for each of the game modes individually accessible directly from your retropie gamelist instead of having to mess around changing things in the tab menu.
-- **Wild Gunman (PlayChoice-10)** (pc_wgnmn) - Same as Duck Hunt
+- `blueshrk` (**Blue Shark**) - Perfect accuracy when using the gun as a paddle controller. Use Widge-5's artwork.
+- `borntofi` (**Born to Fight**) - Better accuracy
+- `cclownz` (**Crazzy Clownz**) - Perfect accuracy for using the gun as a paddle controller
+- `circus` (**Circus**) - Perfect accuracy for using the gun as a paddle controller
+- `claybust` (**ClayBuster**) - Better accuracy
+- `clowns` (**Clowns**) - Perfect accuracy for using the gun as a paddle controller
+- `deadeye` (**Dead Eye**) - Perfect accuracy for using the gun as a paddle controller
+- `gdfs` (**Mobil Suit Gundam: Final Shooting**) - Better accuracy
+- `greatgun` (**Great Guns**) - Perfect accuracy
+- `gypsyjug` (**Gypsy Juggler**) - Perfect accuracy for using the gun as a paddle controller
+- `invasnab` (**Invasion: The Abductors**) - Perfect accuracy and working reload (must choose "fixed (bottom right)" in the "lightgun offscreen position" core option)
+- `jpark` (**Jurassic Park**) - Better accuracy
+- `luckywld` (**Lucky & Wild**) - Better accuracy for player 2 and adjustments to default mappings. We set this up to allow several play styles, but you may want to change things to your liking.
+  - Details for lr-mame2010-StormedBubbles:
+    - Steering: P1 left stick X (analog), P1 D-pad left/right (digital), left/right arrow keys (digital)
+    - Braking: P1 right stick Y down (analog), P1 L2 (digital), P1 D-pad down (digital), down arrow (digital)
+    - Accelerating: P1 right stick Y up (analog), P1 L1/R1 (digital), P1 D-pad up (digital), up arrow (digital)
+  - Details for lr-mame-StormedBubbles:
+    - lr-mame has more analog controls than other MAME cores, and these unfortunately sometimes interfere with each other. As a result, we only set the things listed below as defaults. 
+    - The L2 and R2 buttons can be used as analog inputs in lr-mame. R2 appears as analog axis Z, while L2 appears as analog axis RZ. To map as an analog button, you'd use `JOYCODE_#_ZAXIS_NEG_ABSOLUTE` (R2) or `JOYCODE_#_RZAXIS_NEG_ABSOLUTE` (L2) under the analog section for the particular input you want (where `#` is the player number from 1-8). To map as a digital button, you'd use `JOYCODE_#_ZAXIS_NEG_SWITCH` (R2) or `JOYCODE_#_RZAXIS_NEG_SWITCH` (L2) under the increasing portion of the digital controls for a particular input. Be sure to clear out any analog controls for an input if using digital versions of the same buttons (and vice versa).
+    - Steering: P1 left stick X (analog), left/right arrow keys (digital)
+    - Braking: P1 L2 (analog), down arrow (digital)
+    - Accelerating: P1 R2 (analog), up arrow (digital)
+- `mazerbla` (**Mazer Blazer**) - Better accuracy
+- `pc_duckh` (**PlayChoice-10 Duck Hunt**) - Perfect accuracy in any video mode. You must use the gun assigned to RetroArch's port 1 and assign the gun axes in the MAME ROM-specific cfg file accordingly (`GUNCODE_1` for single screen, `GUNCODE_2` for stacked, `GUNCODE_3` for side by side). Requires RetroArch 1.10.4+ with wide border, RetroArch 1.10.0 with wide X and fitting Y border, or older RetroArch with fitting border.
+- `pc_hgaly` (**PlayChoice-10 Hogan's Alley**) - Same as PlayChoice-10 Duck Hunt
+- `pc_wgnmn` (**PlayChoice-10 Wild Gunman**) - Same as PlayChoice-10 Duck Hunt
+- `ppsatan` (**Poka Poka Satan**) - Perfect accuracy between crosshair and gun sight. Need to display all 3 monitors on screen. Port 1 gun aims at right screen, and Port 2 gun aims at left screen. Need to keep trigger pulled briefly for shot to register. This can give the impression of inaccurate shots. In all game modes, either one gun must be assigned to control ports 1 and 2 or two guns must be used.
+- `spacwalk` (**Space Walk**) - Better accuracy. Due to the platform changing positions at screen center, the best alignment seems to occur if the gun sight lines up with the platform's right edge on the left side of the screen and the platform's left edge on the right side of the screen.
+- `triplhnt` (**Triple Hunt**) - Adds the ability to make two clones of the game.  Triple Hunt is 3 games in 1: Witch Hunt, Hit the Bear and Raccoon Hunt.  Dipswitch settings in the Tab menu can switch between the three game modes, but with this hack you can make two duplicates or symlinks of the triplhnt rom, naming them _triplhna.zip_ and _triplhnb.zip_ and each clone will use a separate game config allowing you to have each instance set up for each of the game modes individually accessible directly from your retropie gamelist instead of having to mess around changing things in the tab menu.
 
 **lr-mess-StormedBubbles** 
 - **Mission: Paintball Powered Up** (pballpup) - Perfect accuracy correction. Needs "Boot from CLI" enabled in core options.
