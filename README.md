@@ -27,7 +27,7 @@ Details are given below the table.
 | `invasnab`       |                            |                            |             X              |           X            |
 | `jpark`          |             X              |                            |                            |           X            |
 | `luckywld`       |             X              |                            |                            |           X            |
-| `mazerbla`       |             X              |                            |                            |           X            |
+| `mazerbla`       |                            |                            |                            |           X            |
 | `pc_duckh`       |             X              |             X              |             X              |           X            |
 | `pc_hgaly`       |             X              |             X              |             X              |           X            |
 | `pc_wgnmn`       |                            |             X              |             X              |           X            |
