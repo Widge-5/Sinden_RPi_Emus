@@ -76,6 +76,7 @@ Details are given below the table.
 # Other cores
 
 **lr-mess-StormedBubbles** 
+- All of the same features listed above for lr-mame-StormedBubbles
 - **Mission: Paintball Powered Up** (pballpup) - Perfect accuracy correction. Needs "Boot from CLI" enabled in core options.
 - **Star Wars: Clone Trooper Blaster Game** (swclone) - Perfect accuracy correction. Needs "Boot from CLI" enabled in core options.
 - **Teenage Mutant Ninja Turtles: Mutant & Monster Mayhem** (tmntmutm) - Perfect accuracy correction
