@@ -12,7 +12,7 @@ Details are given below the table.
 | Max. players     |             8              |             4              |             4              |           8            |
 | Lightgun support |             X              |             X              |             X              |           X            |
 | Mouse support    |             X              |             X              |             X              |           X            |
-| Gun buttons      |             X              |             X              |             X              |          WIP           |
+| Gun buttons      |             X              |             X              |             X              |           X            |
 | New core option  |             X              |             X              |             X              |           X            |
 | `blueshrk`       |             X              |             X              |             X              |           X            |
 | `borntofi`       |             X              |             X              |             X              |           X            |
@@ -21,7 +21,7 @@ Details are given below the table.
 | `claybust`       |                            |             X              |             X              |           X            |
 | `clowns`         |                            |                            |                            |           X            |
 | `deadeye`        |                            |                            |                            |           X            |
-| `gdfs`           |             X              |             X              |             X              |          WIP           |
+| `gdfs`           |             X              |             X              |             X              |           X            |
 | `greatgun`       |                            |                            |                            |           X            |
 | `gypsyjug`       |                            |                            |                            |           X            |
 | `invasnab`       |                            |                            |             X              |           X            |
