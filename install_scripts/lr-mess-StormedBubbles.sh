@@ -1,6 +1,13 @@
 #!/usr/bin/env bash
 
-# This file is not part of The RetroPie Project
+# This file is part of The RetroPie Project
+#
+# The RetroPie Project is the legal property of its developers, whose names are
+# too numerous to list here. Please refer to the COPYRIGHT.md file distributed with this source.
+#
+# See the LICENSE.md file at the top-level directory of this distribution and
+# at https://raw.githubusercontent.com/RetroPie/RetroPie-Setup/master/LICENSE.md
+#
 
 rp_module_id="lr-mess-StormedBubbles"
 rp_module_desc="MESS emulator - MESS Port for libretro"
@@ -9,6 +16,13 @@ rp_module_licence="GPL2 https://raw.githubusercontent.com/libretro/mame/master/C
 rp_module_repo="git https://github.com/StormedBubbles/mame.git hacks"
 rp_module_section="exp"
 rp_module_flags=""
+
+function _get_params_lr-mess-StormedBubbles() {
+    local params=(OSD=retro RETRO=1 NOWERROR=1 OS=linux TARGETOS=linux CONFIG=libretro NO_USE_MIDI=1 TARGET=mame PYTHON_EXECUTABLE=python3)
+    isPlatform "64bit" && params+=(PTR64=1)
+    echo "${params[@]}"
+}
+
 
 function depends_lr-mess-StormedBubbles() {
     depends_lr-mame
@@ -20,17 +34,17 @@ function sources_lr-mess-StormedBubbles() {
 
 function build_lr-mess-StormedBubbles() {
     rpSwap on 4096
-    local params=($(_get_params_lr-mame) SUBTARGET=mess)
+    local params=($(_get_params_lr-mess-StormedBubbles) SUBTARGET=mess)
     make clean
     make "${params[@]}"
     rpSwap off
-    md_ret_require="$md_build/mess_libretro.so"
+    md_ret_require="$md_build/mamemess_libretro.so"
 }
 
 function install_lr-mess-StormedBubbles() {
     md_ret_files=(
         'COPYING'
-        'mess_libretro.so'
+        'mamemess_libretro.so'
         'README.md'
         'hash'
     )
@@ -38,10 +52,10 @@ function install_lr-mess-StormedBubbles() {
 
 function configure_lr-mess-StormedBubbles() {
     local module="$1"
-    [[ -z "$module" ]] && module="mess_libretro.so"
+    [[ -z "$module" ]] && module="mamemess_libretro.so"
 
     local system
-    for system in arcade mame nes gb coleco arcadia crvision; do
+    for system in arcade mame mame-libretro nes gb coleco arcadia crvision; do
         mkRomDir "$system"
         defaultRAConfig "$system"
         addEmulator 0 "$md_id" "$system" "$md_inst/$module"
