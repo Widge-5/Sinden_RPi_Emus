@@ -5,7 +5,7 @@ Please note that no roms are provided here.
 
 
 # Hacks and changes made to MAME cores
-Details are given below the table.
+Details are given below the table. All feature updates to lr-mame-StormedBubbles also apply to lr-mess-StormedBubbles.
 
 | Description      | lr-mame2010-StormedBubbles | lr-mame2015-StormedBubbles | lr-mame2016-StormedBubbles | lr-mame-StormedBubbles |
 | ---------------- | :------------------------: | :------------------------: | :------------------------: | :--------------------: |
