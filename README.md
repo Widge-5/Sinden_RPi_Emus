@@ -97,18 +97,18 @@ Details are given below the table. All feature updates to lr-mame-StormedBubbles
 - **Judge Dredd** - runs, but there is only support for one lightgun so a 2-player game is not possible.
 
 
-# Installing via RetroPie-Setup
+# Installing via RetroPie-Setup (compiling the source code)
 To install any of these as alternative options on your RetroPie system, copy the files from the "install_scripts" folder and place them in the ```/home/pi/RetroPie-Setup/scriptmodules/libretrocores``` folder on your Raspberry Pi 4, then run RetroPie-Setup as normal.
 
-Be advised that **lr-mame-StormedBubbles** and **lr-mess-StormedBubbles** cannot ordinarily compile on anything less than a Raspberry Pi 4 with 8Gb of RAM. However it is possible to compile on lesser Pi4s by bloating a swapfile on your storage medium You can do so by running the script `swap_bloater.sh`, which will create a temporary swapfile of approximately 8Gb in size, before attempting the compile.  The swapfile will be removed on the next reboot of your Pi.
+Be advised that **lr-mame-StormedBubbles** and **lr-mess-StormedBubbles** cannot ordinarily compile on anything less than a Raspberry Pi 4 with 8Gb of RAM. However it is possible to compile on lesser Pi4s by bloating a swapfile on your storage medium. You can do so by running the script `swap_bloater.sh`, which will create a temporary swapfile of approximately 8Gb in size, before attempting the compile.  The swapfile will be removed on the next reboot of your Pi.
 
 **lr-flycast-mazan** will require the following additional step before attempting to compile: in the folder `/home/pi/RetroPie-Setup/scriptmodules/libretrocores` there should be an existing subfolder called `lr-flycast`. Either make a duplicate or symlink to this folder called `lr-flycast-mazan` in the same location.
 
 
 
-# Manual installation
+# Installing via pre-compiled binary
 Please note, these binaries may not be the most up-to-date versions of the cores.  Check the upload dates to find out when they were compiled. 
-To install the cores manually on your Raspberry Pi, take the following steps:
+To install the cores via pre-compiled binaries on your Raspberry Pi, take the following steps:
 
 
 **lr-mame2010-StormedBubbles** 
