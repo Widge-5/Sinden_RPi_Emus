@@ -129,9 +129,9 @@ To install the cores manually on your Raspberry Pi, take the following steps:
 
 **lr-mame2016-StormedBubbles** 
 - download the files `lr-mame2016-StormedBubbles.zip` and `lr-mame2016-StormedBubbles.z01` from the compiled_binaries folder.
-- in a similar fashion to the 2015 edition, extract the file `mame2016_libretro.so` and place it in a folder called `/opt/retropie/libretrocores/lr-mame2016-StormedBubbles` on your Raspberry Pi (you may need root permissions to do this).
+- in a similar fashion to the 2015 edition, extract the file `mamearcade2016_libretro.so` and place it in a folder called `/opt/retropie/libretrocores/lr-mame2016-StormedBubbles` on your Raspberry Pi (you may need root permissions to do this).
 - edit the file `/opt/retropie/configs/arcade/emulators.cfg` to add the following entry (note this is one line of plain text) :
-  - `lr-mame2016-StormedBubbles = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-mame2016-StormedBubbles/mame2016_libretro.so --config /opt/retropie/configs/arcade/retroarch.cfg %ROM%"`
+  - `lr-mame2016-StormedBubbles = "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-mame2016-StormedBubbles/mamearcade2016_libretro.so --config /opt/retropie/configs/arcade/retroarch.cfg %ROM%"`
 - The next time you launch a rom from the _Arcade_ group, this core will be one of the options available via runcommand.
 
 
