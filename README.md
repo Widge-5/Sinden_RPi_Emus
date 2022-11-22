@@ -16,22 +16,27 @@ Details are given below the table. All feature updates to lr-mame-StormedBubbles
 | New core option  |             X              |             X              |             X              |           X            |
 | `avalnche`       |                            |                            |                            |           X            |
 | `blueshrk`       |             X              |             X              |             X              |           X            |
+| `bombbee`        |                            |                            |                            |           X            |
 | `borntofi`       |             X              |             X              |             X              |           X            |
 | `bshark`         |                            |                            |                            |           X            |
 | `cclownz`        |                            |                            |                            |           X            |
 | `circus`         |                            |                            |                            |           X            |
 | `claybust`       |                            |             X              |             X              |           X            |
 | `clowns`         |                            |                            |                            |           X            |
+| `cutieq`         |                            |                            |                            |           X            |
 | `deadeye`        |                            |                            |                            |           X            |
 | `destroyr`       |                            |                            |                            |           X            |
 | `firefox`        |             X              |                            |                            |           X            |
 | `gdfs`           |             X              |             X              |             X              |           X            |
+| `geebee`         |                            |                            |                            |           X            |
 | `greatgun`       |                            |                            |                            |           X            |
 | `gypsyjug`       |                            |                            |                            |           X            |
 | `invasnab`       |                            |                            |             X              |           X            |
 | `jpark`          |             X              |                            |                            |           X            |
+| `lockon`         |                            |                            |                            |           X            |
 | `luckywld`       |             X              |                            |                            |           X            |
 | `mazerbla`       |                            |                            |                            |           X            |
+| `mmagic`         |                            |                            |                            |           X            |
 | `pc_duckh`       |             X              |             X              |             X              |           X            |
 | `pc_hgaly`       |             X              |             X              |             X              |           X            |
 | `pc_wgnmn`       |                            |             X              |             X              |           X            |
@@ -55,20 +60,24 @@ Details are given below the table. All feature updates to lr-mame-StormedBubbles
 - **New core option** (lightgun offscreen position) - This determines the corner in which all offscreen shots are fired (top left or bottom right) or allows the cursor to move freely along the screen edges. The Gun Reload input fires a shot at the bottom right if that fixed position is selected but fires at the top left otherwise. Leave this set to "free" if the game does not require offscreen reloading. Otherwise, only use "fixed (bottom right)" if "fixed (top left)" doesn't work
 - `avalnche` (**Avalanche**) - Perfect accuracy for using the gun as a paddle controller
 - `blueshrk` (**Blue Shark**) - Perfect accuracy when using the gun as a paddle controller. Use [Widge-5's artwork](https://github.com/Widge-5/blueshrk-mame-artwork).
+- `bombbee` (**Bomb Bee**) - Perfect accuracy for using the gun as a paddle controller
 - `borntofi` (**Born to Fight**) - Better accuracy
 - `bshark` (**Battle Shark**) - Better accuracy
 - `cclownz` (**Crazzy Clownz**) - Perfect accuracy for using the gun as a paddle controller
 - `circus` (**Circus**) - Perfect accuracy for using the gun as a paddle controller
 - `claybust` (**ClayBuster**) - Better accuracy. Use [Widge-5's artwork](https://github.com/Widge-5/claybust-mame-artwork)
 - `clowns` (**Clowns**) - Perfect accuracy for using the gun as a paddle controller
+- `cutieq` (**Cutie Q**) - Perfect accuracy for using the gun as a paddle controller
 - `deadeye` (**Dead Eye**) - Perfect accuracy for using the gun as a paddle controller
 - `destroyr` (**Destroyer**) - Better accuracy
 - `firefox` (**Fire Fox**) - Better accuracy (except on the select screen and possibly at the very start of the game)
 - `gdfs` (**Mobil Suit Gundam: Final Shooting**) - Better accuracy
+- `geebee` (**Gee Bee**) - Perfect accuracy for using the gun as a paddle controller
 - `greatgun` (**Great Guns**) - Perfect accuracy
 - `gypsyjug` (**Gypsy Juggler**) - Perfect accuracy for using the gun as a paddle controller
 - `invasnab` (**Invasion: The Abductors**) - Perfect accuracy and working reload (must choose "fixed (bottom right)" in the "lightgun offscreen position" core option). Gun Reload button input does NOT work for this game. You must aim and shoot offscreen
 - `jpark` (**Jurassic Park**) - Better accuracy
+- `lockon` (**Lock-On**) - Better accuracy
 - `luckywld` (**Lucky & Wild**) - Better accuracy for player 2 and adjustments to default mappings. We set this up to allow several play styles, but you may want to change things to your liking.
   - Details for lr-mame2010-StormedBubbles:
     - Steering: P1 left stick X (analog), P1 D-pad left/right (digital), left/right arrow keys (digital)
@@ -81,6 +90,7 @@ Details are given below the table. All feature updates to lr-mame-StormedBubbles
     - Braking: P1 L2 (analog), down arrow (digital)
     - Accelerating: P1 R2 (analog), up arrow (digital)
 - `mazerbla` (**Mazer Blazer**) - Better accuracy
+- `mmagic` (**Monkey Magic**) - Perfect accuracy for using the gun as a paddle controller
 - `pc_duckh` (**PlayChoice-10 Duck Hunt**) - Perfect accuracy in any video mode. You must use the gun assigned to RetroArch's port 1 and assign the gun axes in the MAME ROM-specific cfg file accordingly (`GUNCODE_1` for single screen, `GUNCODE_2` for stacked, `GUNCODE_3` for side by side). Requires RetroArch 1.10.4+ with wide border, RetroArch 1.10.0 with wide X and fitting Y border, or older RetroArch with fitting border.
 - `pc_hgaly` (**PlayChoice-10 Hogan's Alley**) - Same as PlayChoice-10 Duck Hunt
 - `pc_wgnmn` (**PlayChoice-10 Wild Gunman**) - Same as PlayChoice-10 Duck Hunt
