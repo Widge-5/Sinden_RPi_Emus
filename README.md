@@ -63,7 +63,7 @@ Details are given below the table. All feature updates to lr-mame-StormedBubbles
 - `clowns` (**Clowns**) - Perfect accuracy for using the gun as a paddle controller
 - `deadeye` (**Dead Eye**) - Perfect accuracy for using the gun as a paddle controller
 - `destroyr` (**Destroyer**) - Better accuracy
-- `firefox` (**Fire Fox**) - Better accuracy (except on select screen and possibly at the very start of the game)
+- `firefox` (**Fire Fox**) - Better accuracy (except on the select screen and possibly at the very start of the game)
 - `gdfs` (**Mobil Suit Gundam: Final Shooting**) - Better accuracy
 - `greatgun` (**Great Guns**) - Perfect accuracy
 - `gypsyjug` (**Gypsy Juggler**) - Perfect accuracy for using the gun as a paddle controller
