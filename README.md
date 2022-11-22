@@ -14,13 +14,17 @@ Details are given below the table. All feature updates to lr-mame-StormedBubbles
 | Mouse support    |             X              |             X              |             X              |           X            |
 | Gun buttons      |             X              |             X              |             X              |           X            |
 | New core option  |             X              |             X              |             X              |           X            |
+| `avalnche`       |                            |                            |                            |           X            |
 | `blueshrk`       |             X              |             X              |             X              |           X            |
 | `borntofi`       |             X              |             X              |             X              |           X            |
+| `bshark`         |                            |                            |                            |           X            |
 | `cclownz`        |                            |                            |                            |           X            |
 | `circus`         |                            |                            |                            |           X            |
 | `claybust`       |                            |             X              |             X              |           X            |
 | `clowns`         |                            |                            |                            |           X            |
 | `deadeye`        |                            |                            |                            |           X            |
+| `destroyr`       |                            |                            |                            |           X            |
+| `firefox`        |             X              |                            |                            |                        |
 | `gdfs`           |             X              |             X              |             X              |           X            |
 | `greatgun`       |                            |                            |                            |           X            |
 | `gypsyjug`       |                            |                            |                            |           X            |
@@ -32,8 +36,15 @@ Details are given below the table. All feature updates to lr-mame-StormedBubbles
 | `pc_hgaly`       |             X              |             X              |             X              |           X            |
 | `pc_wgnmn`       |                            |             X              |             X              |           X            |
 | `ppsatan`        |                            |             X              |             X              |           X            |
+| `seawolf`        |                            |                            |                            |           X            |
+| `seawolf2`       |                            |                            |                            |           X            |
+| `sharrier`       |                            |                            |                            |           X            |
+| `skyraid`        |                            |                            |                            |           X            |
 | `spacwalk`       |             X              |                            |                            |           X            |
+| `tailg`          |                            |                            |                            |           X            |
+| `topgunnr`       |                            |                            |                            |           X            |
 | `triplhnt`       |                            |                            |                            |           X            |
+| `wildplt`        |                            |                            |                            |           X            |
 
 
 **Details:**
@@ -42,13 +53,17 @@ Details are given below the table. All feature updates to lr-mame-StormedBubbles
 - **Mouse support** - Uses relative coordinates. This is meant for trackball, dial, and spinner games.
 - **Gun buttons** - Gun Trigger (button 1), Gun Aux A (button 2), Gun Aux B (button 3), Gun Aux C (button 4), Gun Select (coin), Gun Start (start), Gun D-Pad (digital up, down, left, right), and Gun Reload (simulated offscreen shot)
 - **New core option** (lightgun offscreen position) - This determines the corner in which all offscreen shots are fired (top left or bottom right) or allows the cursor to move freely along the screen edges. The Gun Reload input fires a shot at the bottom right if that fixed position is selected but fires at the top left otherwise. Leave this set to "free" if the game does not require offscreen reloading. Otherwise, only use "fixed (bottom right)" if "fixed (top left)" doesn't work
+- `avalnche` (**Avalanche**) - Perfect accuracy for using the gun as a paddle controller
 - `blueshrk` (**Blue Shark**) - Perfect accuracy when using the gun as a paddle controller. Use [Widge-5's artwork](https://github.com/Widge-5/blueshrk-mame-artwork).
 - `borntofi` (**Born to Fight**) - Better accuracy
+- `bshark` (**Battle Shark**) - Better accuracy
 - `cclownz` (**Crazzy Clownz**) - Perfect accuracy for using the gun as a paddle controller
 - `circus` (**Circus**) - Perfect accuracy for using the gun as a paddle controller
 - `claybust` (**ClayBuster**) - Better accuracy. Use [Widge-5's artwork](https://github.com/Widge-5/claybust-mame-artwork)
 - `clowns` (**Clowns**) - Perfect accuracy for using the gun as a paddle controller
 - `deadeye` (**Dead Eye**) - Perfect accuracy for using the gun as a paddle controller
+- `destroyr` (**Destroyer**) - Better accuracy
+- `firefox` (**Fire Fox**) - Better accuracy (except on select screen and possibly at the very start of the game)
 - `gdfs` (**Mobil Suit Gundam: Final Shooting**) - Better accuracy
 - `greatgun` (**Great Guns**) - Perfect accuracy
 - `gypsyjug` (**Gypsy Juggler**) - Perfect accuracy for using the gun as a paddle controller
@@ -70,8 +85,15 @@ Details are given below the table. All feature updates to lr-mame-StormedBubbles
 - `pc_hgaly` (**PlayChoice-10 Hogan's Alley**) - Same as PlayChoice-10 Duck Hunt
 - `pc_wgnmn` (**PlayChoice-10 Wild Gunman**) - Same as PlayChoice-10 Duck Hunt
 - `ppsatan` (**Poka Poka Satan**) - Perfect accuracy between crosshair and gun sight. Need to display all 3 monitors on screen. Port 1 gun aims at right screen, and Port 2 gun aims at left screen (note that the player numbers are reversed in game). Only insert 1 coin to start a 1-player (dual-gun) game. The trigger acts as the start button. Need to keep trigger pulled briefly for shot to register. This can give the impression of inaccurate shots. In all game modes, either one gun must be assigned to control ports 1 and 2 or two guns must be used.
+- `seawolf` (**Sea Wolf**) - Better accuracy
+- `seawolf2` (**Sea Wolf II**) - Better accuracy
+- `sharrier` (**Space Harrier**) - Better accuracy
+- `skyraid` (**Sky Raider**) - Better accuracy at the start of the game
 - `spacwalk` (**Space Walk**) - Better accuracy. Due to the platform changing positions at screen center, the best alignment seems to occur if the gun sight lines up with the platform's right edge on the left side of the screen and the platform's left edge on the right side of the screen (so that's what we went with).
+- `tailg` (**Tailgunner**) - Better accuracy
+- `topgunnr` (**Top Gunner**) - Better accuracy
 - `triplhnt` (**Triple Hunt**) - Adds the ability to make two clones of the game.  Triple Hunt is 3 games in 1: Witch Hunt, Hit the Bear and Raccoon Hunt.  Dipswitch settings in the Tab menu can switch among the three game modes, but with this hack you can make two duplicates or symlinks of the triplhnt rom, naming them _triplhna.zip_ and _triplhnb.zip_. Each clone will use a separate game config, allowing you to have each instance set up for each of the game modes individually accessible directly from your RetroPie gamelist instead of having to mess around changing things in the Tab menu. Only one set of artwork/samples (named after the parent _triplhnt_) is needed for the whole bunch.
+- `wildplt` (**Wild Pilot**) - Better accuracy (except on the select screen)
 
 # Other cores
 
