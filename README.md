@@ -24,7 +24,7 @@ Details are given below the table. All feature updates to lr-mame-StormedBubbles
 | `clowns`         |                            |                            |                            |           X            |
 | `deadeye`        |                            |                            |                            |           X            |
 | `destroyr`       |                            |                            |                            |           X            |
-| `firefox`        |             X              |                            |                            |                        |
+| `firefox`        |             X              |                            |                            |           X            |
 | `gdfs`           |             X              |             X              |             X              |           X            |
 | `greatgun`       |                            |                            |                            |           X            |
 | `gypsyjug`       |                            |                            |                            |           X            |
