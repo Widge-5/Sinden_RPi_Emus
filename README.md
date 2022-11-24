@@ -70,7 +70,7 @@ Details are given below the table. All feature updates to lr-mame-StormedBubbles
 - `cutieq` (**Cutie Q**) - Perfect accuracy for using the gun as a paddle controller
 - `deadeye` (**Dead Eye**) - Perfect accuracy for using the gun as a paddle controller
 - `destroyr` (**Destroyer**) - Better accuracy
-- `firefox` (**Fire Fox**) - Better accuracy (except on the select screen and possibly at the very start of the game)
+- `firefox` (**Firefox**) - Better accuracy (except on the select screen and possibly at the very start of the game)
 - `gdfs` (**Mobil Suit Gundam: Final Shooting**) - Better accuracy
 - `geebee` (**Gee Bee**) - Perfect accuracy for using the gun as a paddle controller
 - `greatgun` (**Great Guns**) - Perfect accuracy
